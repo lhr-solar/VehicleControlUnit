@@ -388,7 +388,20 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "DAC_SPI": [
+        "SPI_CS",
+        "SPI_MOSI",
+        "SPI_CLK"
+      ],
+      "SD_SPI": [
+        "SPI_CS",
+        "SPI_CLK",
+        "SPI_MISO",
+        "SPI_MOSI",
+        "SPI_DET"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -429,7 +442,7 @@
         "uuid": "e864fac9-3897-46c9-9101-6d5488c6cd3a"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D1-7,#PWR1-10,#PWR13-18,J1-3,IC1-6,R1-27,#FLG1-4,#FLG9,C1-32,Reset1,CR1,FB1-2,JP1-4,L1,Q1-2,SW1,TP1-4,TP_3.3V1,U1-4,Y1",
     "variants": []
   },
   "sheets": [
@@ -438,24 +451,60 @@
       "Root"
     ],
     [
-      "09ebaf14-1ef0-4cbf-9d8c-36a4d881c942",
-      "CAN_Transceiver"
-    ],
-    [
-      "dbb22a50-f060-406a-8ccd-6955472389bc",
+      "dc3ab98d-8813-4545-9e4b-e0fd2f1fb432",
       "12VBuck"
     ],
     [
-      "3025f6f3-aa95-4f38-bd50-766a08164531",
+      "8c80e70e-d3a1-489e-a463-e9494e34a65c",
+      "IO Conn"
+    ],
+    [
+      "da76194f-59e6-4b82-959b-538a81e9eb86",
       "LDO"
     ],
     [
-      "d3bbb439-9463-420f-80a7-7e34cdb5392f",
-      "ESP32"
+      "19de6bb4-fd37-45ed-ab7a-91a6842df4d8",
+      "PowerProtection"
     ],
     [
-      "27c92548-ed3d-4b48-b802-79fa618876ca",
-      "5VBuck"
+      "252635d1-b56c-4964-8f6e-39efe20521e2",
+      "CarCAN"
+    ],
+    [
+      "e8918db0-ed0e-4663-8139-dd25306e146c",
+      "100PinMCU"
+    ],
+    [
+      "f9087b5b-32fd-4bb7-84dd-9fe64614d383",
+      "MCU + Peripherals"
+    ],
+    [
+      "b0b52d73-b085-4624-9871-af1c22d24972",
+      "SD Card"
+    ],
+    [
+      "76867641-26a4-43d1-a64a-9a6eb791f3f7",
+      "Motor Fans"
+    ],
+    [
+      "351a8545-bbe6-4531-b2a7-55d4b724255d",
+      "Motor Comms"
+    ],
+    [
+      "f16a8bc3-f058-4d27-badd-0afc148d009e",
+      "Power Regulation"
+    ],
+    [
+      "0ea102fd-1304-4ff7-b070-3b59a07fd3d5",
+      "USB_PD"
+    ],
+    [
+      "59ba047e-cc6c-42e3-939f-b33701d25ed0",
+      "Power_Mux"
+    ],
+    [
+      "c15aadb0-f4ae-46ca-8bcd-83ba5a1e77f0",
+      "USB-C Connector"
     ]
   ],
   "text_variables": {},
