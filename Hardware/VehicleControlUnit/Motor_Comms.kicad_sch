@@ -3193,7 +3193,7 @@
 	)
 	(text "M2096C MoCo CAN Implementation"
 		(exclude_from_sim no)
-		(at 205.74 18.034 0)
+		(at 205.74 17.78 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -3205,7 +3205,7 @@
 	)
 	(text "Tereminal 25/7"
 		(exclude_from_sim no)
-		(at 162.306 162.052 0)
+		(at 162.56 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3215,7 +3215,7 @@
 	)
 	(text "LDAC set low in firmware, but can be \nset to high to hold a certain speed \nin hardware :o"
 		(exclude_from_sim no)
-		(at 117.348 92.964 0)
+		(at 116.84 92.71 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -3225,7 +3225,7 @@
 	)
 	(text "SPI-DAC Implementation"
 		(exclude_from_sim no)
-		(at 198.374 66.548 0)
+		(at 198.12 66.04 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -3237,7 +3237,7 @@
 	)
 	(text "Vth = =1.3V\nPower_mode_end (max) ~= 3.3V"
 		(exclude_from_sim no)
-		(at 119.38 163.068 0)
+		(at 119.38 162.56 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -3247,7 +3247,7 @@
 	)
 	(text "F/R Control"
 		(exclude_from_sim no)
-		(at 110.744 155.956 0)
+		(at 110.49 156.21 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -3259,7 +3259,7 @@
 	)
 	(text "Power/Eco Mode"
 		(exclude_from_sim no)
-		(at 114.3 129.032 0)
+		(at 114.3 129.54 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -3271,7 +3271,7 @@
 	)
 	(text "Vth = =1.3V\nPower_mode_end (max) ~= 3.3V"
 		(exclude_from_sim no)
-		(at 119.634 135.636 0)
+		(at 119.38 135.89 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -3281,7 +3281,7 @@
 	)
 	(text "Isolated MtrCAN"
 		(exclude_from_sim no)
-		(at 33.528 18.288 0)
+		(at 33.02 17.78 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -3303,7 +3303,7 @@
 	)
 	(text "Isolated DC-DC"
 		(exclude_from_sim no)
-		(at 96.012 17.78 0)
+		(at 96.52 17.78 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -3316,7 +3316,7 @@
 	)
 	(text "Digital Isolation"
 		(exclude_from_sim no)
-		(at 33.528 128.778 0)
+		(at 33.02 128.27 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -3328,7 +3328,7 @@
 	)
 	(text "Tereminal 25/7"
 		(exclude_from_sim no)
-		(at 162.56 174.752 0)
+		(at 162.56 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3338,7 +3338,7 @@
 	)
 	(text "Moco CAN Datatsheet:\nhttps://tinyurl.com/mocoCANdatasheet"
 		(exclude_from_sim no)
-		(at 232.918 25.146 0)
+		(at 232.41 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3348,7 +3348,7 @@
 	)
 	(text "Test Points"
 		(exclude_from_sim no)
-		(at 188.214 100.076 0)
+		(at 187.96 100.33 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -3360,7 +3360,7 @@
 	)
 	(text "SPI Isolation -> Accel-Brake DAC"
 		(exclude_from_sim no)
-		(at 47.498 74.422 0)
+		(at 46.99 74.93 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -3381,135 +3381,135 @@
 		(uuid "d5dc67c9-828e-487f-a5b0-e48af505cb26")
 	)
 	(junction
-		(at 152.908 33.274)
+		(at 152.4 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "01e7b26a-8872-41cb-b1ad-c26168d2b529")
 	)
 	(junction
-		(at 140.97 87.884)
+		(at 140.97 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0db7c645-c087-46fe-b600-8b9548d13fa0")
 	)
 	(junction
-		(at 151.13 87.884)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2d4cf86e-b488-45c4-8d23-1aad9a131fa6")
-	)
-	(junction
-		(at 119.888 100.076)
+		(at 119.38 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38aeaeac-f6a2-4134-a7a6-761b02ed33bf")
 	)
 	(junction
-		(at 152.908 43.434)
+		(at 152.4 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56a541c7-8726-48dd-871d-562ce18bed29")
 	)
 	(junction
-		(at 127 168.148)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d035e90-5c59-471d-9dfc-2c434b1fcb18")
-	)
-	(junction
-		(at 74.93 48.006)
+		(at 74.93 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c937851-a878-42ab-86a1-4a8cc9792425")
 	)
 	(junction
-		(at 60.96 58.674)
+		(at 128.27 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "811f0c63-0004-4210-ba69-ca652d84e214")
+	)
+	(junction
+		(at 151.13 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fcd9082-e735-4245-841b-8fd1d0e79a13")
+	)
+	(junction
+		(at 60.96 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1f09c18-d914-4e36-9e4a-c0582b0847a7")
 	)
 	(junction
-		(at 127.254 140.716)
+		(at 128.27 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a83d5e67-5bb5-468e-bc7d-12b3a9789708")
+		(uuid "b61a73d7-b5be-47b2-a9a9-d6f1f9950d50")
 	)
 	(junction
-		(at 140.97 83.058)
+		(at 140.97 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e21a954f-1ac1-4158-8aa1-864382eae29b")
 	)
 	(no_connect
-		(at 75.692 158.75)
+		(at 76.2 158.75)
 		(uuid "02883883-21f9-4ea3-91ab-44e0d135dcf1")
 	)
 	(no_connect
-		(at 42.672 156.21)
+		(at 43.18 156.21)
 		(uuid "10e1e5a7-e2c1-4def-8c50-10cca6c20768")
 	)
 	(no_connect
-		(at 46.99 103.632)
+		(at 46.99 104.14)
 		(uuid "21454c3a-5ca3-420c-945e-bc05910772e4")
 	)
 	(no_connect
-		(at 75.692 156.21)
+		(at 76.2 156.21)
 		(uuid "2a7cecd4-bf96-4943-9747-ada3793a3488")
 	)
 	(no_connect
-		(at 80.01 103.632)
+		(at 80.01 104.14)
 		(uuid "44d95f34-4648-4009-8878-4146fd89a6fe")
 	)
 	(no_connect
-		(at 42.672 158.75)
+		(at 43.18 158.75)
 		(uuid "906e4d40-7f6f-4546-8cb4-53c28b430d91")
 	)
 	(no_connect
-		(at 38.608 39.116)
+		(at 38.1 39.37)
 		(uuid "9befd7d9-e095-4099-afc3-1deb63dc0757")
 	)
 	(no_connect
-		(at 38.608 46.736)
+		(at 38.1 46.99)
 		(uuid "9c52cb1e-cab3-4a4e-8125-8643b70a543d")
 	)
 	(no_connect
-		(at 71.628 36.576)
+		(at 71.12 36.83)
 		(uuid "c0057cac-29ae-405c-b9e8-4b8df05ed7f3")
 	)
 	(no_connect
-		(at 38.608 44.196)
+		(at 38.1 44.45)
 		(uuid "d4bd3d96-e367-464f-865a-fd67782f9d73")
 	)
 	(bus_entry
-		(at 35.814 96.012)
+		(at 35.56 96.52)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "49de6d9f-e739-4b0a-be6a-31dd27e676fd")
+		(uuid "75367921-b864-4325-a5e3-76db4fb89bd5")
 	)
 	(bus_entry
-		(at 35.814 93.472)
+		(at 35.56 93.98)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "753394fd-404e-4208-a555-db49670818af")
+		(uuid "86280b64-273f-49ba-8b85-0508142f04fb")
 	)
 	(bus_entry
-		(at 35.814 98.552)
+		(at 35.56 99.06)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d0eedb02-0eff-4f19-b043-7f07c5e2ea57")
+		(uuid "af457378-b320-4bd9-8a59-a633d53b195d")
 	)
 	(wire
 		(pts
-			(xy 60.96 58.674) (xy 60.96 62.738)
+			(xy 60.96 58.42) (xy 60.96 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3519,7 +3519,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.888 98.298) (xy 119.888 100.076)
+			(xy 119.38 97.79) (xy 119.38 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3529,7 +3529,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.608 41.656) (xy 36.83 41.656)
+			(xy 38.1 41.91) (xy 36.83 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3539,7 +3539,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.386 58.674) (xy 42.418 58.674)
+			(xy 40.64 58.42) (xy 41.91 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3547,9 +3547,19 @@
 		)
 		(uuid "0cbb7844-699c-4a6b-8b4e-cdbc1c242dc7")
 	)
+	(bus
+		(pts
+			(xy 35.56 93.98) (xy 34.29 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "111ce0e9-cd59-44e9-9f2d-ab48c3c874cd")
+	)
 	(wire
 		(pts
-			(xy 45.212 92.202) (xy 46.482 93.472)
+			(xy 45.72 92.71) (xy 46.99 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3559,17 +3569,7 @@
 	)
 	(wire
 		(pts
-			(xy 126.746 144.272) (xy 127.254 143.764)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bba3d98-fd84-43c8-8e61-dcd46d5ac95b")
-	)
-	(wire
-		(pts
-			(xy 73.406 41.656) (xy 74.422 40.64)
+			(xy 73.66 41.91) (xy 74.93 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3579,7 +3579,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 127.254) (xy 193.802 127.254)
+			(xy 193.04 127) (xy 194.31 127)
 		)
 		(stroke
 			(width 0)
@@ -3589,7 +3589,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 33.274) (xy 152.908 33.274)
+			(xy 151.13 33.02) (xy 152.4 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3599,7 +3599,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.596 63.5) (xy 72.39 63.5)
+			(xy 69.85 63.5) (xy 72.39 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3609,37 +3609,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.012 124.714) (xy 223.774 124.714)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23b4e503-669b-47b7-9b3a-8b21f98acbb5")
-	)
-	(bus
-		(pts
-			(xy 35.052 92.71) (xy 35.814 93.472)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "253e70ce-6b7c-4de6-8ebd-a99b7d916caa")
-	)
-	(wire
-		(pts
-			(xy 136.144 135.636) (xy 136.144 134.874)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2676d91a-0475-4476-8af7-76a3863821d2")
-	)
-	(wire
-		(pts
-			(xy 140.97 83.058) (xy 140.97 87.884)
+			(xy 140.97 82.55) (xy 140.97 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3649,7 +3619,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 121.412) (xy 193.802 121.412)
+			(xy 193.04 121.92) (xy 194.31 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3659,7 +3629,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.628 44.196) (xy 74.168 44.196)
+			(xy 71.12 44.45) (xy 73.66 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3669,17 +3639,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 168.148) (xy 127 171.196)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31891242-f0d0-47b2-965d-02459edb826c")
-	)
-	(wire
-		(pts
-			(xy 127.254 140.716) (xy 128.524 140.716)
+			(xy 124.46 140.97) (xy 128.27 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3689,7 +3649,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.894 163.83) (xy 42.672 163.83)
+			(xy 40.64 163.83) (xy 43.18 163.83)
 		)
 		(stroke
 			(width 0)
@@ -3699,7 +3659,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 83.058) (xy 140.97 83.058)
+			(xy 139.7 82.55) (xy 140.97 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3709,7 +3669,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 97.536) (xy 155.194 97.536)
+			(xy 153.67 97.79) (xy 154.94 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3719,7 +3679,7 @@
 	)
 	(wire
 		(pts
-			(xy 75.692 148.59) (xy 76.962 148.59)
+			(xy 76.2 148.59) (xy 77.47 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3729,7 +3689,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 96.012) (xy 81.788 96.012)
+			(xy 80.01 96.52) (xy 81.28 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3739,17 +3699,7 @@
 	)
 	(wire
 		(pts
-			(xy 136.652 134.366) (xy 138.43 134.366)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44380463-8706-4ee6-ab1c-ba1c9302cac3")
-	)
-	(wire
-		(pts
-			(xy 73.66 46.736) (xy 74.93 48.006)
+			(xy 73.66 46.99) (xy 74.93 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3759,17 +3709,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 87.884) (xy 151.13 83.566)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49815426-2a1a-4468-be01-53a9d3598f6f")
-	)
-	(wire
-		(pts
-			(xy 88.392 106.172) (xy 89.662 106.172)
+			(xy 88.9 106.68) (xy 90.17 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3779,27 +3719,37 @@
 	)
 	(wire
 		(pts
-			(xy 193.294 111.76) (xy 193.04 111.76)
+			(xy 127 171.45) (xy 128.27 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a88aa7f-12d1-45de-bf08-b0cb48e86ab5")
+		(uuid "4a96e8ad-5c36-4484-97f6-e65e1a881438")
 	)
 	(wire
 		(pts
-			(xy 123.952 140.716) (xy 127.254 140.716)
+			(xy 128.27 140.97) (xy 128.27 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50817c40-fc98-4187-aa93-b37304c3f7dd")
+		(uuid "50fb32aa-dd75-4af8-b367-904c95f43cf0")
 	)
 	(wire
 		(pts
-			(xy 36.83 49.276) (xy 38.608 49.276)
+			(xy 127 144.78) (xy 128.27 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53a570ae-60de-4747-a334-3d731ad0baa2")
+	)
+	(wire
+		(pts
+			(xy 36.83 49.53) (xy 38.1 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3809,7 +3759,17 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 90.932) (xy 81.28 90.932)
+			(xy 149.86 82.55) (xy 151.13 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57db32de-7562-49de-9ee7-b1d4c1e30dd1")
+	)
+	(wire
+		(pts
+			(xy 80.01 91.44) (xy 81.28 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3819,17 +3779,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.462 114.3) (xy 140.97 113.792)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59088789-acef-43ca-9596-19a24b45f632")
-	)
-	(wire
-		(pts
-			(xy 61.722 63.5) (xy 60.96 62.738)
+			(xy 62.23 63.5) (xy 60.96 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3839,7 +3789,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 48.006) (xy 75.946 48.006)
+			(xy 74.93 48.26) (xy 76.2 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3849,7 +3799,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 118.364) (xy 193.802 118.364)
+			(xy 193.04 118.11) (xy 194.31 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3859,7 +3809,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 83.058) (xy 142.24 83.058)
+			(xy 140.97 82.55) (xy 142.24 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3869,7 +3819,17 @@
 	)
 	(wire
 		(pts
-			(xy 44.958 92.202) (xy 45.212 92.202)
+			(xy 135.89 172.72) (xy 137.16 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61690134-22e0-4df7-9564-d7a2e7b8f8ad")
+	)
+	(wire
+		(pts
+			(xy 44.45 92.71) (xy 45.72 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3879,27 +3839,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 173.228) (xy 135.89 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68208bd9-79ce-486a-a01d-0243b9d2aca4")
-	)
-	(wire
-		(pts
-			(xy 103.632 100.076) (xy 103.886 100.076)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69348056-7b3f-42a5-b191-ef99001d5795")
-	)
-	(wire
-		(pts
-			(xy 80.772 106.172) (xy 80.01 106.172)
+			(xy 81.28 106.68) (xy 80.01 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3909,7 +3849,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.628 46.736) (xy 73.66 46.736)
+			(xy 71.12 46.99) (xy 73.66 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3919,7 +3859,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.406 39.116) (xy 74.422 38.1)
+			(xy 73.66 39.37) (xy 74.93 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3929,17 +3869,7 @@
 	)
 	(wire
 		(pts
-			(xy 61.976 63.5) (xy 61.722 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "731a9735-a0b4-41f3-87d1-bdad7f72b27c")
-	)
-	(wire
-		(pts
-			(xy 112.522 43.434) (xy 110.744 43.434)
+			(xy 113.03 43.18) (xy 110.49 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3949,37 +3879,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.016 97.536) (xy 128.27 97.536)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77d455c7-d83e-4f83-bbc7-49695d815537")
-	)
-	(wire
-		(pts
-			(xy 135.89 173.99) (xy 136.398 174.498)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "781ff54e-1914-469c-93a5-296c6a04560c")
-	)
-	(wire
-		(pts
-			(xy 136.398 161.798) (xy 138.176 161.798)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "787fdfeb-20fd-46c3-a664-9e29fbca0821")
-	)
-	(wire
-		(pts
-			(xy 152.908 41.91) (xy 152.908 43.434)
+			(xy 152.4 41.91) (xy 152.4 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3989,7 +3889,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.894 148.59) (xy 42.672 148.59)
+			(xy 40.64 148.59) (xy 43.18 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3999,7 +3899,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.628 41.656) (xy 73.406 41.656)
+			(xy 71.12 41.91) (xy 73.66 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4009,7 +3909,17 @@
 	)
 	(wire
 		(pts
-			(xy 71.628 39.116) (xy 73.406 39.116)
+			(xy 137.16 161.29) (xy 138.43 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b1f040e-6590-4a3e-92f7-9bc590e2ba70")
+	)
+	(wire
+		(pts
+			(xy 71.12 39.37) (xy 73.66 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4019,27 +3929,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 87.884) (xy 152.146 87.884)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d046436-726d-4937-9c96-14debca2d396")
-	)
-	(wire
-		(pts
-			(xy 46.482 93.472) (xy 46.99 93.472)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d39dab2-5a5d-4bd3-8765-cd8e37516fa0")
-	)
-	(wire
-		(pts
-			(xy 136.652 147.066) (xy 138.43 147.066)
+			(xy 137.16 147.32) (xy 138.43 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4049,7 +3939,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 89.662) (xy 46.99 90.932)
+			(xy 45.72 90.17) (xy 46.99 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4059,17 +3949,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.012 122.428) (xy 223.774 122.428)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83d94aef-4d4c-49d6-9ffb-bf30fcf37f68")
-	)
-	(wire
-		(pts
-			(xy 110.744 33.274) (xy 112.522 33.274)
+			(xy 110.49 33.02) (xy 113.03 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4079,7 +3959,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 58.674) (xy 64.262 58.674)
+			(xy 60.96 58.42) (xy 64.77 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4089,7 +3969,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.958 89.662) (xy 45.72 89.662)
+			(xy 44.45 90.17) (xy 45.72 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4099,17 +3979,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 163.068) (xy 135.89 162.306)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85afc9da-9f06-4ca0-aaef-7f82b2116866")
-	)
-	(wire
-		(pts
-			(xy 71.628 34.036) (xy 72.898 34.036)
+			(xy 71.12 34.29) (xy 72.39 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4119,57 +3989,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.012 117.602) (xy 223.774 117.602)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87e2685b-c8ea-4a9a-bbef-19670b6a5b9c")
-	)
-	(wire
-		(pts
-			(xy 136.144 134.874) (xy 136.652 134.366)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89c813a7-97d8-4f38-896a-b6f95d3298a2")
-	)
-	(bus
-		(pts
-			(xy 35.814 93.472) (xy 35.814 98.552)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8df22f79-30cc-4470-b931-efc4bc62c4a6")
-	)
-	(wire
-		(pts
-			(xy 193.294 106.172) (xy 193.04 106.172)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e6d1718-6493-482c-a4c0-a37301ef6373")
-	)
-	(wire
-		(pts
-			(xy 150.622 83.058) (xy 149.86 83.058)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f1e46a2-a749-4dbc-ad37-4670a59ca149")
-	)
-	(wire
-		(pts
-			(xy 84.074 161.29) (xy 85.344 161.29)
+			(xy 83.82 161.29) (xy 85.09 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4179,37 +3999,17 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 83.566) (xy 150.622 83.058)
+			(xy 135.89 162.56) (xy 137.16 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9351360c-df59-4439-8845-4bb5d294695b")
+		(uuid "9812689f-8567-4e32-b56a-49f0273625ca")
 	)
 	(wire
 		(pts
-			(xy 136.398 174.498) (xy 138.176 174.498)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9562359b-4c91-47b6-ac0c-c83a26a43aaf")
-	)
-	(wire
-		(pts
-			(xy 38.862 106.172) (xy 39.116 106.172)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a8847a0-03c6-4b1d-97b4-b7b4b36188d1")
-	)
-	(wire
-		(pts
-			(xy 136.144 146.558) (xy 136.652 147.066)
+			(xy 135.89 146.05) (xy 137.16 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4219,7 +4019,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 101.092) (xy 81.788 101.092)
+			(xy 80.01 101.6) (xy 81.28 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4229,17 +4029,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.002 33.274) (xy 143.51 33.274)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a140ec9b-e277-4cb1-a910-c13d0f75291e")
-	)
-	(wire
-		(pts
-			(xy 123.698 168.148) (xy 127 168.148)
+			(xy 123.19 167.64) (xy 128.27 167.64)
 		)
 		(stroke
 			(width 0)
@@ -4249,17 +4039,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.294 108.966) (xy 193.04 108.966)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a23469bc-fd25-46a3-a7ba-ae61b8084e1b")
-	)
-	(wire
-		(pts
-			(xy 140.97 87.884) (xy 140.97 89.916)
+			(xy 140.97 87.63) (xy 140.97 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4269,7 +4049,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 112.776) (xy 140.97 113.792)
+			(xy 140.97 113.03) (xy 140.97 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4279,7 +4059,7 @@
 	)
 	(wire
 		(pts
-			(xy 75.692 163.83) (xy 85.344 163.83)
+			(xy 76.2 163.83) (xy 85.09 163.83)
 		)
 		(stroke
 			(width 0)
@@ -4289,7 +4069,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.208 114.3) (xy 140.462 114.3)
+			(xy 139.7 114.3) (xy 140.97 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4299,7 +4079,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.046 100.076) (xy 119.888 100.076)
+			(xy 114.3 100.33) (xy 119.38 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4309,17 +4089,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.016 102.616) (xy 128.27 102.616)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1a9cff9-a2c5-4a3a-9493-7328a1835b83")
-	)
-	(wire
-		(pts
-			(xy 119.888 100.076) (xy 128.27 100.076)
+			(xy 119.38 100.33) (xy 128.27 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4329,7 +4099,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 124.46) (xy 193.802 124.46)
+			(xy 193.04 124.46) (xy 194.31 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4339,7 +4109,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.628 49.276) (xy 73.66 49.276)
+			(xy 71.12 49.53) (xy 73.66 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4347,9 +4117,19 @@
 		)
 		(uuid "b33429f2-4913-48dd-bc2a-10d166a4dda4")
 	)
+	(bus
+		(pts
+			(xy 35.56 93.98) (xy 35.56 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3883a01-706f-45d1-9084-828f9c6e4511")
+	)
 	(wire
 		(pts
-			(xy 153.67 105.156) (xy 155.194 105.156)
+			(xy 153.67 105.41) (xy 154.94 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4359,7 +4139,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 34.036) (xy 38.608 34.036)
+			(xy 36.83 34.29) (xy 38.1 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4369,7 +4149,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 98.552) (xy 81.788 98.552)
+			(xy 80.01 99.06) (xy 81.28 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4379,7 +4159,7 @@
 	)
 	(wire
 		(pts
-			(xy 75.692 146.05) (xy 76.962 146.05)
+			(xy 76.2 146.05) (xy 77.47 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4389,7 +4169,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.354 98.552) (xy 46.99 98.552)
+			(xy 38.1 99.06) (xy 46.99 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4399,7 +4179,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.002 43.434) (xy 152.908 43.434)
+			(xy 143.51 43.18) (xy 152.4 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4409,27 +4189,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 162.306) (xy 136.398 161.798)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdd9bd92-1f1e-4c6a-b531-12dc82d94ba9")
-	)
-	(wire
-		(pts
-			(xy 136.144 145.796) (xy 136.144 146.558)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf3bd411-7aab-424e-bf3e-f7d7ca101e0b")
-	)
-	(wire
-		(pts
-			(xy 114.046 97.536) (xy 119.126 97.536)
+			(xy 114.3 97.79) (xy 119.38 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4439,17 +4199,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.126 97.536) (xy 119.888 98.298)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c12ae38f-3dfc-4bf7-a24b-b30a68d72b13")
-	)
-	(wire
-		(pts
-			(xy 73.66 49.276) (xy 74.93 48.006)
+			(xy 73.66 49.53) (xy 74.93 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4459,7 +4209,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.608 36.576) (xy 36.83 36.576)
+			(xy 38.1 36.83) (xy 36.83 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4469,7 +4219,17 @@
 	)
 	(wire
 		(pts
-			(xy 40.894 146.05) (xy 42.672 146.05)
+			(xy 151.13 87.63) (xy 152.4 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c36e4dd3-b079-4f0e-b873-2bfe39fac815")
+	)
+	(wire
+		(pts
+			(xy 40.64 146.05) (xy 43.18 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4479,27 +4239,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.012 119.888) (xy 223.774 119.888)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c52877c4-4561-4773-9533-2980156714a6")
-	)
-	(wire
-		(pts
-			(xy 103.632 97.536) (xy 103.886 97.536)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7add921-0468-43c1-ba91-082c7da833f8")
-	)
-	(wire
-		(pts
-			(xy 140.97 87.884) (xy 142.24 87.884)
+			(xy 140.97 87.63) (xy 142.24 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4509,7 +4249,17 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 87.884) (xy 151.13 87.884)
+			(xy 128.27 167.64) (xy 128.27 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8fc3b21-0455-4b61-848e-3fa1b78d8241")
+	)
+	(wire
+		(pts
+			(xy 149.86 87.63) (xy 151.13 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4519,27 +4269,17 @@
 	)
 	(wire
 		(pts
-			(xy 34.544 161.29) (xy 34.798 161.29)
+			(xy 137.16 173.99) (xy 138.43 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cb3fe027-2e7d-4587-a078-29b97e5ef63d")
+		(uuid "cf848f6e-b25a-4293-b1a8-7c5fe6c4cf3d")
 	)
 	(wire
 		(pts
-			(xy 126.492 171.704) (xy 127 171.196)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd31694f-2754-44e6-b1c1-f9c336617fae")
-	)
-	(wire
-		(pts
-			(xy 38.354 96.012) (xy 46.99 96.012)
+			(xy 38.1 96.52) (xy 46.99 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4549,7 +4289,17 @@
 	)
 	(wire
 		(pts
-			(xy 60.198 58.674) (xy 60.96 58.674)
+			(xy 151.13 83.82) (xy 151.13 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d457a34c-76f4-4b5f-9845-8640e8d621fe")
+	)
+	(wire
+		(pts
+			(xy 59.69 58.42) (xy 60.96 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4559,7 +4309,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 31.496) (xy 38.608 31.496)
+			(xy 36.83 31.75) (xy 38.1 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4569,7 +4319,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.354 101.092) (xy 46.99 101.092)
+			(xy 38.1 101.6) (xy 46.99 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4579,7 +4329,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.908 33.274) (xy 156.464 33.274)
+			(xy 152.4 33.02) (xy 156.21 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4589,7 +4339,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.212 108.712) (xy 46.99 108.712)
+			(xy 45.72 109.22) (xy 46.99 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4599,27 +4349,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 168.148) (xy 128.27 168.148)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0cb5fa9-d93f-4be0-82dc-febeaa110b12")
-	)
-	(wire
-		(pts
-			(xy 46.736 106.172) (xy 46.99 106.172)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0ce9b91-351c-4f04-ae6a-0c20f9a91a4d")
-	)
-	(wire
-		(pts
-			(xy 152.908 43.434) (xy 156.464 43.434)
+			(xy 152.4 43.18) (xy 156.21 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4629,7 +4359,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 108.712) (xy 89.662 108.712)
+			(xy 80.01 109.22) (xy 90.17 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4639,7 +4369,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.908 33.274) (xy 152.908 34.29)
+			(xy 152.4 33.02) (xy 152.4 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4649,7 +4379,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 93.472) (xy 81.28 93.472)
+			(xy 80.01 93.98) (xy 81.28 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4659,7 +4389,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.882 58.674) (xy 75.946 58.674)
+			(xy 72.39 58.42) (xy 76.2 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4669,37 +4399,27 @@
 	)
 	(wire
 		(pts
-			(xy 128.016 105.156) (xy 128.27 105.156)
+			(xy 137.16 134.62) (xy 138.43 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f118b759-7a35-4b9f-8f96-d11925f3347e")
+		(uuid "ee06eb9e-0f68-4d0a-8ae5-d898ba1df353")
 	)
 	(wire
 		(pts
-			(xy 127.254 140.716) (xy 127.254 143.764)
+			(xy 135.89 135.89) (xy 137.16 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f33ec713-e62f-4db5-b4b8-470155ba1a33")
+		(uuid "f563d5ef-d43c-49b2-b769-21019761216e")
 	)
 	(wire
 		(pts
-			(xy 76.454 161.29) (xy 75.692 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3de2c0f-f971-4c49-bcf8-469b952025ec")
-	)
-	(wire
-		(pts
-			(xy 42.418 161.29) (xy 42.672 161.29)
+			(xy 41.91 161.29) (xy 43.18 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4709,7 +4429,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.628 31.496) (xy 72.898 31.496)
+			(xy 71.12 31.75) (xy 72.39 31.75)
 		)
 		(stroke
 			(width 0)
@@ -35376,7 +35096,7 @@
 		)
 	)
 	(label "PwrMode_Gate"
-		(at 75.692 151.13 0)
+		(at 76.2 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35386,7 +35106,7 @@
 		(uuid "0bad0a3a-9d79-4961-9fb4-04f2ca5af309")
 	)
 	(label "PwrMode_Gate"
-		(at 193.802 118.364 0)
+		(at 194.31 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35396,7 +35116,7 @@
 		(uuid "11bcb048-e3f9-465f-bd47-25aaf0962ca1")
 	)
 	(label "SPI_CLK_ISO"
-		(at 81.788 96.012 0)
+		(at 81.28 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35406,7 +35126,7 @@
 		(uuid "16fc07ad-9916-4617-ba5f-fa25f84e62a5")
 	)
 	(label "F{slash}R_Mode"
-		(at 123.698 168.148 180)
+		(at 123.19 167.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35416,7 +35136,7 @@
 		(uuid "1ca86ad0-5705-493f-8f15-04dd518d4380")
 	)
 	(label "SPI_MOSI"
-		(at 248.158 117.856 0)
+		(at 247.65 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35426,7 +35146,7 @@
 		(uuid "1f2ff341-dd38-4cb2-aa3f-d7d502c9bc7b")
 	)
 	(label "+3.3V_ISO"
-		(at 76.962 146.05 0)
+		(at 77.47 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35436,7 +35156,7 @@
 		(uuid "24085a12-7bcc-47aa-8468-b2e41bd387cf")
 	)
 	(label "SPI_MOSI_ISO"
-		(at 128.016 102.616 180)
+		(at 128.27 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35446,7 +35166,7 @@
 		(uuid "2473c705-c356-4596-85e7-f70e982d17ad")
 	)
 	(label "SPI_CLK"
-		(at 248.158 114.808 0)
+		(at 247.65 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35456,7 +35176,7 @@
 		(uuid "2a885c11-ce86-467d-a817-be5942b5e507")
 	)
 	(label "SPI_CS"
-		(at 248.158 120.904 0)
+		(at 247.65 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35466,7 +35186,7 @@
 		(uuid "328322be-5547-4b45-a3df-a93af7c24866")
 	)
 	(label "SPI_MOSI_ISO"
-		(at 81.788 98.552 0)
+		(at 81.28 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35476,7 +35196,7 @@
 		(uuid "34c5f1ee-4b7c-43c7-8270-2d99bf182f64")
 	)
 	(label "GND_ISO"
-		(at 156.464 43.434 0)
+		(at 156.21 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35486,7 +35206,7 @@
 		(uuid "43f704ca-cc97-43b1-9d54-596564284910")
 	)
 	(label "GND_ISO"
-		(at 89.662 108.712 0)
+		(at 90.17 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35496,7 +35216,7 @@
 		(uuid "4a0c2e87-42b1-4326-80a2-cadf2e6ade93")
 	)
 	(label "GND_ISO"
-		(at 223.774 119.888 0)
+		(at 223.52 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35506,7 +35226,7 @@
 		(uuid "4cea2044-5d0b-4277-b272-df8d0fd5079e")
 	)
 	(label "F{slash}R_Mode"
-		(at 193.802 121.412 0)
+		(at 194.31 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35516,7 +35236,7 @@
 		(uuid "534ae97b-1758-4bee-a20b-0235a98669f4")
 	)
 	(label "GND_ISO"
-		(at 81.28 93.472 0)
+		(at 81.28 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35525,18 +35245,18 @@
 		)
 		(uuid "61772f87-f6f3-4c4f-aef3-2f6cdee28a0d")
 	)
-	(label "SPI_CLK"
-		(at 38.608 96.012 0)
+	(label "DAC_CS"
+		(at 38.1 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "628b9df5-35e5-49ba-9891-d57ffd121dc3")
+		(uuid "623c5434-52a3-47c1-b747-20de594ce345")
 	)
 	(label "+3.3V_ISO"
-		(at 74.168 44.196 0)
+		(at 73.66 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35546,7 +35266,7 @@
 		(uuid "66153701-cf32-418a-895c-9b9a63127f55")
 	)
 	(label "SPI_MOSI_ISO"
-		(at 248.158 106.172 0)
+		(at 247.65 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35556,7 +35276,7 @@
 		(uuid "667bd704-e9dc-454b-b2c1-1c7264645afe")
 	)
 	(label "GND_ISO"
-		(at 75.946 48.006 0)
+		(at 76.2 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35566,7 +35286,7 @@
 		(uuid "6a1d46ec-bec1-4131-86f4-579c104d8cb9")
 	)
 	(label "F{slash}R_Mode"
-		(at 75.692 153.67 0)
+		(at 76.2 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35576,7 +35296,7 @@
 		(uuid "6d22a2ef-cccc-4736-ad1f-15b967095bb6")
 	)
 	(label "+3.3V_ISO"
-		(at 156.464 33.274 0)
+		(at 156.21 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35586,7 +35306,7 @@
 		(uuid "7e62f3dd-0e02-432b-b0ea-1d9aa10beb62")
 	)
 	(label "SPI_CLK_ISO"
-		(at 248.158 111.76 0)
+		(at 247.65 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35595,8 +35315,18 @@
 		)
 		(uuid "8198d238-cfde-45b2-9ce1-1a9c62f514de")
 	)
+	(label "DAC_MOSI"
+		(at 38.1 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "83b4b422-ee15-4607-86be-7fae80afc237")
+	)
 	(label "+3.3V_ISO"
-		(at 89.662 106.172 0)
+		(at 90.17 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35606,7 +35336,7 @@
 		(uuid "87748f4d-5a20-43ad-9541-08eb0afe27bd")
 	)
 	(label "GND_ISO"
-		(at 85.344 163.83 0)
+		(at 85.09 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35625,18 +35355,8 @@
 		)
 		(uuid "a7a4ca8e-b29c-4805-836b-a2279dec194d")
 	)
-	(label "SPI_MOSI"
-		(at 38.608 98.552 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a94abc54-fa02-44e7-8a21-ec714d40737e")
-	)
 	(label "GND_ISO"
-		(at 72.898 34.036 0)
+		(at 72.39 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35646,7 +35366,7 @@
 		(uuid "bc908e8b-7ccc-4932-a928-abf99aad4886")
 	)
 	(label "SPI_CS_ISO"
-		(at 248.158 108.966 0)
+		(at 247.65 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35656,7 +35376,7 @@
 		(uuid "bd37e0b2-56b8-4f78-a353-9bfdc65b5dc8")
 	)
 	(label "SPI_CLK_ISO"
-		(at 128.016 97.536 180)
+		(at 128.27 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35666,7 +35386,7 @@
 		(uuid "c2d07e2e-4847-4e90-8c14-fc02e198a586")
 	)
 	(label "SPI_CS_ISO"
-		(at 128.016 105.156 180)
+		(at 128.27 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35676,7 +35396,7 @@
 		(uuid "c527eb73-6ccf-41ff-a05a-5da88087c216")
 	)
 	(label "SPI_CS_ISO"
-		(at 81.788 101.092 0)
+		(at 81.28 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35686,7 +35406,7 @@
 		(uuid "c89dce3f-54db-412e-9699-d54479d2daef")
 	)
 	(label "+3.3V_ISO"
-		(at 85.344 161.29 0)
+		(at 85.09 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35695,18 +35415,8 @@
 		)
 		(uuid "d6f4d663-6f74-4738-a62d-0313355b531a")
 	)
-	(label "SPI_CS"
-		(at 38.608 101.092 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d9c1a03d-13a5-4f18-b960-b625bea04ea3")
-	)
 	(label "GND_ISO"
-		(at 76.962 148.59 0)
+		(at 77.47 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35716,7 +35426,7 @@
 		(uuid "e4fa4eaa-46e4-4c8f-8580-2637386f6bf8")
 	)
 	(label "+3.3V_ISO"
-		(at 223.774 117.602 0)
+		(at 223.52 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35726,7 +35436,7 @@
 		(uuid "ebd49461-0fe7-4e03-ad07-b8581205dc33")
 	)
 	(label "PwrMode_Gate"
-		(at 123.952 140.716 180)
+		(at 124.46 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35736,7 +35446,7 @@
 		(uuid "f38e4e07-9b2c-4047-8ff0-547b5cd0e5cc")
 	)
 	(label "+3.3V_ISO"
-		(at 81.28 90.932 0)
+		(at 81.28 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35745,8 +35455,18 @@
 		)
 		(uuid "f55f5391-24af-4a75-8e79-d6da43b337ce")
 	)
+	(label "DAC_CLK"
+		(at 38.1 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7c18af4-81fe-48b3-b743-b0e32ee7242c")
+	)
 	(label "+3.3V_ISO"
-		(at 72.898 31.496 0)
+		(at 72.39 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35757,7 +35477,7 @@
 	)
 	(hierarchical_label "LDAC"
 		(shape input)
-		(at 223.012 106.172 0)
+		(at 223.52 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35768,7 +35488,7 @@
 	)
 	(hierarchical_label "PWR_MODE_OUT"
 		(shape output)
-		(at 138.43 147.066 0)
+		(at 138.43 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35779,7 +35499,7 @@
 	)
 	(hierarchical_label "FWD_EN"
 		(shape input)
-		(at 193.294 108.966 0)
+		(at 193.04 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35790,7 +35510,7 @@
 	)
 	(hierarchical_label "Mtr_CANL"
 		(shape bidirectional)
-		(at 75.946 58.674 0)
+		(at 76.2 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35801,7 +35521,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 140.208 114.3 180)
+		(at 139.7 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35812,7 +35532,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 40.894 163.83 180)
+		(at 40.64 163.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35823,7 +35543,7 @@
 	)
 	(hierarchical_label "PWR_MODE_EN"
 		(shape input)
-		(at 42.672 151.13 180)
+		(at 43.18 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35845,7 +35565,7 @@
 	)
 	(hierarchical_label "+3.3V"
 		(shape input)
-		(at 139.7 83.058 180)
+		(at 139.7 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35856,7 +35576,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 103.632 100.076 180)
+		(at 104.14 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35867,7 +35587,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 44.958 92.202 180)
+		(at 44.45 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35878,7 +35598,7 @@
 	)
 	(hierarchical_label "FWD_EN"
 		(shape input)
-		(at 42.672 153.67 180)
+		(at 43.18 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35889,7 +35609,7 @@
 	)
 	(hierarchical_label "F{slash}R_MODE_OUT"
 		(shape output)
-		(at 138.176 174.498 0)
+		(at 138.43 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35898,9 +35618,9 @@
 		)
 		(uuid "4de97b17-ceb9-4383-92bd-029867cf9e7b")
 	)
-	(hierarchical_label "DAC_SPI"
+	(hierarchical_label "{DAC_SPI}"
 		(shape input)
-		(at 35.052 92.71 180)
+		(at 34.29 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35911,7 +35631,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 36.83 34.036 180)
+		(at 36.83 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35922,7 +35642,7 @@
 	)
 	(hierarchical_label "CAN_RX"
 		(shape output)
-		(at 193.802 127.254 0)
+		(at 194.31 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35933,7 +35653,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 152.146 87.884 0)
+		(at 152.4 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35944,7 +35664,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 36.83 49.276 180)
+		(at 36.83 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35955,7 +35675,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 111.252 171.704 180)
+		(at 111.76 171.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35966,7 +35686,7 @@
 	)
 	(hierarchical_label "FWD_EN"
 		(shape input)
-		(at 193.294 111.76 0)
+		(at 193.04 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35977,7 +35697,7 @@
 	)
 	(hierarchical_label "+3.3V"
 		(shape input)
-		(at 44.958 89.662 180)
+		(at 44.45 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35988,7 +35708,7 @@
 	)
 	(hierarchical_label "PWR_MODE_EN"
 		(shape input)
-		(at 193.294 106.172 0)
+		(at 193.04 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35999,7 +35719,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 110.744 43.434 180)
+		(at 110.49 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -36010,7 +35730,7 @@
 	)
 	(hierarchical_label "+3.3V"
 		(shape input)
-		(at 38.862 106.172 180)
+		(at 39.37 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -36021,7 +35741,7 @@
 	)
 	(hierarchical_label "LDAC"
 		(shape input)
-		(at 103.632 97.536 180)
+		(at 104.14 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -36032,7 +35752,7 @@
 	)
 	(hierarchical_label "+3.3V"
 		(shape input)
-		(at 223.774 122.428 0)
+		(at 223.52 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -36043,7 +35763,7 @@
 	)
 	(hierarchical_label "Mtr_CANL"
 		(shape bidirectional)
-		(at 74.422 40.64 0)
+		(at 74.93 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -36054,7 +35774,7 @@
 	)
 	(hierarchical_label "Mtr_CANH"
 		(shape bidirectional)
-		(at 40.386 58.674 180)
+		(at 40.64 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -36065,7 +35785,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 40.894 148.59 180)
+		(at 40.64 148.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -36076,7 +35796,7 @@
 	)
 	(hierarchical_label "Brake_DAC"
 		(shape output)
-		(at 223.012 111.76 0)
+		(at 223.52 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -36087,7 +35807,7 @@
 	)
 	(hierarchical_label "+3.3V"
 		(shape input)
-		(at 110.744 33.274 180)
+		(at 110.49 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -36098,7 +35818,7 @@
 	)
 	(hierarchical_label "CAN_RX"
 		(shape output)
-		(at 36.83 41.656 180)
+		(at 36.83 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -36109,7 +35829,7 @@
 	)
 	(hierarchical_label "+3.3V"
 		(shape input)
-		(at 40.894 146.05 180)
+		(at 40.64 146.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -36120,7 +35840,7 @@
 	)
 	(hierarchical_label "PWR_MODE_IN"
 		(shape input)
-		(at 138.43 134.366 0)
+		(at 138.43 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -36131,7 +35851,7 @@
 	)
 	(hierarchical_label "Mtr_CANH"
 		(shape bidirectional)
-		(at 193.04 130.302 0)
+		(at 193.04 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -36142,7 +35862,7 @@
 	)
 	(hierarchical_label "Brake_DAC"
 		(shape output)
-		(at 155.194 105.156 0)
+		(at 154.94 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -36153,7 +35873,7 @@
 	)
 	(hierarchical_label "CAN_TX"
 		(shape input)
-		(at 36.83 36.576 180)
+		(at 36.83 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -36164,7 +35884,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 111.506 144.272 180)
+		(at 111.76 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -36175,7 +35895,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 45.212 108.712 180)
+		(at 45.72 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -36186,7 +35906,7 @@
 	)
 	(hierarchical_label "+3.3V"
 		(shape input)
-		(at 36.83 31.496 180)
+		(at 36.83 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -36197,7 +35917,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 223.774 124.714 0)
+		(at 223.52 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -36208,7 +35928,7 @@
 	)
 	(hierarchical_label "F{slash}R_MODE_IN"
 		(shape input)
-		(at 138.176 161.798 0)
+		(at 138.43 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -36219,7 +35939,7 @@
 	)
 	(hierarchical_label "Accel_DAC"
 		(shape output)
-		(at 155.194 97.536 0)
+		(at 154.94 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -36230,7 +35950,7 @@
 	)
 	(hierarchical_label "CAN_TX"
 		(shape input)
-		(at 193.802 124.46 0)
+		(at 194.31 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -36241,7 +35961,7 @@
 	)
 	(hierarchical_label "+3.3V"
 		(shape input)
-		(at 34.544 161.29 180)
+		(at 34.29 161.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -36252,7 +35972,7 @@
 	)
 	(hierarchical_label "Mtr_CANH"
 		(shape bidirectional)
-		(at 74.422 38.1 0)
+		(at 74.93 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -36263,7 +35983,7 @@
 	)
 	(hierarchical_label "Accel_DAC"
 		(shape output)
-		(at 223.012 108.966 0)
+		(at 223.52 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -36274,7 +35994,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 223.012 124.714 90)
+		(at 223.52 124.46 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36283,8 +36003,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "02f6bfc2-ad4d-4d53-b2b5-818145a8925f")
-		(property "Reference" "TP?"
-			(at 216.408 124.714 90)
+		(property "Reference" "TP20"
+			(at 216.916 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36294,7 +36014,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 219.71 121.666 90)
+			(at 220.218 121.412 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36305,7 +36025,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.012 119.634 0)
+			(at 223.52 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36316,7 +36036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.012 119.634 0)
+			(at 223.52 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36327,7 +36047,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 223.012 124.714 0)
+			(at 223.52 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36343,7 +36063,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -36351,7 +36071,7 @@
 	)
 	(symbol
 		(lib_id "Analog_DAC:MCP4822")
-		(at 140.97 100.076 0)
+		(at 140.97 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36360,8 +36080,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "059fa864-d784-4c27-9ae7-5526c4aeb59d")
-		(property "Reference" "U?"
-			(at 143.51 114.808 0)
+		(property "Reference" "U4"
+			(at 143.51 115.062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36372,7 +36092,7 @@
 			)
 		)
 		(property "Value" "MCP4822"
-			(at 143.002 112.268 0)
+			(at 143.002 112.522 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36383,7 +36103,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 107.696 0)
+			(at 161.29 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36394,7 +36114,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20002249B.pdf"
-			(at 161.29 107.696 0)
+			(at 161.29 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36405,7 +36125,7 @@
 			)
 		)
 		(property "Description" "2-Channel 12-Bit D/A Converters with SPI Interface and Internal Reference (2.048V)"
-			(at 140.97 100.076 0)
+			(at 140.97 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36442,7 +36162,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "U?")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -36450,7 +36170,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 223.012 119.888 90)
+		(at 223.52 119.38 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36459,8 +36179,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "115177a9-8d66-453e-9037-eb231dd732cc")
-		(property "Reference" "TP?"
-			(at 216.408 119.888 90)
+		(property "Reference" "TP18"
+			(at 216.916 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36470,7 +36190,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 219.71 116.84 90)
+			(at 220.218 116.332 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36481,7 +36201,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.012 114.808 0)
+			(at 223.52 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36492,7 +36212,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.012 114.808 0)
+			(at 223.52 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36503,7 +36223,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 223.012 119.888 0)
+			(at 223.52 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36519,7 +36239,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -36527,7 +36247,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 193.04 106.172 90)
+		(at 193.04 106.68 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36536,8 +36256,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "12e42fbe-c7fd-4fb0-a2ce-d46ac7d25dcc")
-		(property "Reference" "TP?"
-			(at 186.436 106.172 90)
+		(property "Reference" "TP5"
+			(at 186.436 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36547,7 +36267,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 189.738 103.124 90)
+			(at 189.738 103.632 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36558,7 +36278,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 101.092 0)
+			(at 193.04 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36569,7 +36289,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 101.092 0)
+			(at 193.04 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36580,7 +36300,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 193.04 106.172 0)
+			(at 193.04 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36596,7 +36316,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -36604,7 +36324,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 223.012 108.966 90)
+		(at 223.52 109.22 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36613,8 +36333,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17199dae-cf97-4bdd-92b4-df40bda248e5")
-		(property "Reference" "TP?"
-			(at 216.408 108.966 90)
+		(property "Reference" "TP15"
+			(at 216.916 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36624,7 +36344,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 219.71 105.918 90)
+			(at 220.218 106.172 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36635,7 +36355,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.012 103.886 0)
+			(at 223.52 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36646,7 +36366,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.012 103.886 0)
+			(at 223.52 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36657,7 +36377,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 223.012 108.966 0)
+			(at 223.52 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36673,7 +36393,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -36681,7 +36401,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 248.158 117.856 90)
+		(at 247.65 118.11 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36690,8 +36410,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1eec37e2-6598-413b-b8e3-6afc81e9280a")
-		(property "Reference" "TP?"
-			(at 241.554 117.856 90)
+		(property "Reference" "TP25"
+			(at 241.046 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36701,7 +36421,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 244.856 114.808 90)
+			(at 244.348 115.062 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36712,7 +36432,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.158 112.776 0)
+			(at 247.65 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36723,7 +36443,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.158 112.776 0)
+			(at 247.65 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36734,7 +36454,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 248.158 117.856 0)
+			(at 247.65 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36750,7 +36470,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP25")
 					(unit 1)
 				)
 			)
@@ -36758,7 +36478,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 248.158 114.808 90)
+		(at 247.65 114.3 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36767,8 +36487,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "255cd768-7010-4c1d-938d-6177c758f359")
-		(property "Reference" "TP?"
-			(at 241.554 114.808 90)
+		(property "Reference" "TP24"
+			(at 241.046 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36778,7 +36498,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 244.856 111.76 90)
+			(at 244.348 111.252 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36789,7 +36509,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.158 109.728 0)
+			(at 247.65 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36800,7 +36520,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.158 109.728 0)
+			(at 247.65 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36811,7 +36531,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 248.158 114.808 0)
+			(at 247.65 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36827,7 +36547,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP24")
 					(unit 1)
 				)
 			)
@@ -36835,7 +36555,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 65.786 63.5 90)
+		(at 66.04 63.5 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36844,8 +36564,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "27ca52fe-3a1e-4e58-92f2-3fe513462951")
-		(property "Reference" "C?"
-			(at 68.326 65.024 90)
+		(property "Reference" "C34"
+			(at 68.58 65.024 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36855,7 +36575,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 69.088 62.23 90)
+			(at 69.342 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36865,7 +36585,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.596 62.5348 0)
+			(at 69.85 62.5348 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36876,7 +36596,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 65.786 63.5 0)
+			(at 66.04 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36887,7 +36607,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 65.786 63.5 0)
+			(at 66.04 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36906,7 +36626,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "C?")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -36914,7 +36634,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 146.05 87.884 270)
+		(at 146.05 87.63 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36923,8 +36643,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29578b34-a96c-4280-aba7-d5fcd87127cf")
-		(property "Reference" "C?"
-			(at 148.59 89.408 90)
+		(property "Reference" "C36"
+			(at 148.59 89.154 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36934,7 +36654,7 @@
 			)
 		)
 		(property "Value" ".1u"
-			(at 149.098 86.614 90)
+			(at 149.098 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36944,7 +36664,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 88.8492 0)
+			(at 142.24 88.5952 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36955,7 +36675,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 87.884 0)
+			(at 146.05 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36966,7 +36686,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 146.05 87.884 0)
+			(at 146.05 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36985,7 +36705,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "C?")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -36993,7 +36713,7 @@
 	)
 	(symbol
 		(lib_id "RM-3.33.3S:RM-3.33.3S")
-		(at 127.762 38.354 0)
+		(at 128.27 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37003,8 +36723,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "310ed432-9440-4a4b-837f-e503dc169961")
-		(property "Reference" "PS?"
-			(at 127.762 26.162 0)
+		(property "Reference" "PS1"
+			(at 128.27 25.908 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37014,7 +36734,7 @@
 			)
 		)
 		(property "Value" "RM-3.33.3S"
-			(at 127.762 28.702 0)
+			(at 128.27 28.448 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37024,7 +36744,7 @@
 			)
 		)
 		(property "Footprint" "RM-3.33.3S:CONV_RM-3.33.3S"
-			(at 127.762 38.354 0)
+			(at 128.27 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37035,8 +36755,8 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
-			(at 127.762 38.354 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/887/1/RM.pdf"
+			(at 128.27 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37047,7 +36767,7 @@
 			)
 		)
 		(property "Description" "Recom Iso DC-DC Converter,Vin 2.97 to 3.63V dc,Vout 3.3V dc,I/O isolation 1000V | RECOM Power Inc. RM-3.33.3S"
-			(at 127.762 38.354 0)
+			(at 128.27 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37059,7 +36779,7 @@
 			)
 		)
 		(property "MF" "Recom Power"
-			(at 127.762 38.354 0)
+			(at 128.27 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37071,7 +36791,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "10.0mm"
-			(at 127.762 38.354 0)
+			(at 128.27 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37083,7 +36803,7 @@
 			)
 		)
 		(property "Package" "SIP-4 Recom Power"
-			(at 127.762 38.354 0)
+			(at 128.27 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37095,7 +36815,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 127.762 38.354 0)
+			(at 128.27 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37107,7 +36827,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/RM-3.33.3S/Recom+Power/view-part/?ref=eda"
-			(at 127.762 38.354 0)
+			(at 128.27 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37119,7 +36839,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 127.762 38.354 0)
+			(at 128.27 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37131,7 +36851,7 @@
 			)
 		)
 		(property "PARTREV" "2"
-			(at 127.762 38.354 0)
+			(at 128.27 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37143,7 +36863,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RM-3.33.3S/Recom+Power/view-part/?ref=snap"
-			(at 127.762 38.354 0)
+			(at 128.27 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37155,7 +36875,7 @@
 			)
 		)
 		(property "MP" "RM-3.33.3S"
-			(at 127.762 38.354 0)
+			(at 128.27 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37167,7 +36887,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 127.762 38.354 0)
+			(at 128.27 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37179,7 +36899,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Recom"
-			(at 127.762 38.354 0)
+			(at 128.27 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37205,7 +36925,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "PS?")
+					(reference "PS1")
 					(unit 1)
 				)
 			)
@@ -37213,7 +36933,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 248.158 108.966 90)
+		(at 247.65 109.22 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37222,8 +36942,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "390529f7-8726-4359-acd7-75b0ce4f7592")
-		(property "Reference" "TP?"
-			(at 241.554 108.966 90)
+		(property "Reference" "TP22"
+			(at 241.046 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37233,7 +36953,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 244.856 105.918 90)
+			(at 244.348 106.172 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37244,7 +36964,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.158 103.886 0)
+			(at 247.65 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37255,7 +36975,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.158 103.886 0)
+			(at 247.65 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37266,7 +36986,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 248.158 108.966 0)
+			(at 247.65 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37282,7 +37002,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -37290,7 +37010,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 248.158 111.76 90)
+		(at 247.65 111.76 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37299,8 +37019,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b498e03-561f-45f7-bca3-fbf024f64c13")
-		(property "Reference" "TP?"
-			(at 241.554 111.76 90)
+		(property "Reference" "TP23"
+			(at 241.046 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37310,7 +37030,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 244.856 108.712 90)
+			(at 244.348 108.712 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37321,7 +37041,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.158 106.68 0)
+			(at 247.65 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37332,7 +37052,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.158 106.68 0)
+			(at 247.65 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37343,7 +37063,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 248.158 111.76 0)
+			(at 247.65 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37359,7 +37079,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -37367,7 +37087,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 84.582 106.172 270)
+		(at 85.09 106.68 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -37377,8 +37097,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41828390-9eb4-4e81-b64d-fe31beafd84e")
-		(property "Reference" "R?"
-			(at 84.582 103.886 90)
+		(property "Reference" "R40"
+			(at 85.09 104.394 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37388,7 +37108,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 84.582 106.172 90)
+			(at 85.09 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37398,7 +37118,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 84.582 107.95 90)
+			(at 85.09 108.458 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37409,7 +37129,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 84.582 106.172 0)
+			(at 85.09 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37420,7 +37140,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 84.582 106.172 0)
+			(at 85.09 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37439,125 +37159,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 133.604 140.716 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "530ba707-6108-42bc-92ae-30a444e6d308")
-		(property "Reference" "Q?"
-			(at 139.192 139.4459 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 139.192 141.9859 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.684 138.176 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 133.604 153.416 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 133.604 140.716 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 133.604 157.861 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 133.604 159.766 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 133.604 155.956 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dbb5ff1c-11fd-408b-9fed-f361378ebc85")
-		)
-		(pin "3"
-			(uuid "f491f2f0-30de-417c-ac8d-10d3e099a953")
-		)
-		(pin "2"
-			(uuid "7739d757-f995-4a6c-b63a-1db0e06e3118")
-		)
-		(instances
-			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "Q?")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -37565,7 +37167,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 193.04 121.412 90)
+		(at 193.04 121.92 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37574,8 +37176,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "581ff991-a156-497e-8143-1d9a5fe1ecd8")
-		(property "Reference" "TP?"
-			(at 186.436 121.412 90)
+		(property "Reference" "TP9"
+			(at 186.436 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37585,7 +37187,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 189.738 118.364 90)
+			(at 189.738 118.872 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37596,7 +37198,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 116.332 0)
+			(at 193.04 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37607,7 +37209,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 116.332 0)
+			(at 193.04 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37618,7 +37220,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 193.04 121.412 0)
+			(at 193.04 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37634,7 +37236,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -37642,7 +37244,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 122.682 171.704 90)
+		(at 123.19 171.45 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37651,8 +37253,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59f1a92e-fcd2-4896-8562-d88a9086017b")
-		(property "Reference" "R?"
-			(at 122.936 173.99 90)
+		(property "Reference" "R42"
+			(at 123.444 173.736 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37662,7 +37264,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 122.682 171.704 90)
+			(at 123.19 171.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37672,7 +37274,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 122.682 173.482 90)
+			(at 123.19 173.228 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37683,7 +37285,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 122.682 171.704 0)
+			(at 123.19 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37694,7 +37296,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 122.682 171.704 0)
+			(at 123.19 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37713,7 +37315,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R?")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -37721,7 +37323,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 193.04 127.254 90)
+		(at 193.04 127 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37730,8 +37332,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6478dfa9-62c5-4b22-93c1-1858d743521a")
-		(property "Reference" "TP?"
-			(at 186.436 127.254 90)
+		(property "Reference" "TP11"
+			(at 186.436 127 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37741,7 +37343,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 189.738 124.206 90)
+			(at 189.738 123.952 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37752,7 +37354,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 122.174 0)
+			(at 193.04 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37763,7 +37365,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 122.174 0)
+			(at 193.04 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37774,7 +37376,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 193.04 127.254 0)
+			(at 193.04 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37790,7 +37392,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -37798,7 +37400,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 193.04 130.302 90)
+		(at 193.04 130.81 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37807,8 +37409,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6a78fe07-ffaf-407d-b095-0a19d50c2015")
-		(property "Reference" "TP?"
-			(at 186.436 130.302 90)
+		(property "Reference" "TP12"
+			(at 186.436 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37818,7 +37420,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 189.738 127.254 90)
+			(at 189.738 127.762 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37829,7 +37431,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 125.222 0)
+			(at 193.04 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37840,7 +37442,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 125.222 0)
+			(at 193.04 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37851,7 +37453,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 193.04 130.302 0)
+			(at 193.04 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37867,7 +37469,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -37875,7 +37477,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 115.316 144.272 0)
+		(at 115.57 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37884,8 +37486,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c4caea9-ad8a-4fea-9409-1ddaffd8c150")
-		(property "Reference" "D?"
-			(at 118.11 143.256 0)
+		(property "Reference" "D17"
+			(at 118.364 143.764 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37895,7 +37497,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 114.808 146.812 0)
+			(at 115.062 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37905,7 +37507,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.316 144.272 0)
+			(at 115.57 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37916,7 +37518,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.316 144.272 0)
+			(at 115.57 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37927,7 +37529,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 115.316 144.272 0)
+			(at 115.57 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37938,7 +37540,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 115.316 144.272 0)
+			(at 115.57 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37957,7 +37559,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "D?")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -37965,7 +37567,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 223.012 111.76 90)
+		(at 223.52 111.76 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37974,8 +37576,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ebc760e-aab7-4d31-a23e-5abf2c579a40")
-		(property "Reference" "TP?"
-			(at 216.408 111.76 90)
+		(property "Reference" "TP16"
+			(at 216.916 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37985,7 +37587,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 219.71 108.712 90)
+			(at 220.218 108.712 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37996,7 +37598,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.012 106.68 0)
+			(at 223.52 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38007,7 +37609,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.012 106.68 0)
+			(at 223.52 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38018,7 +37620,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 223.012 111.76 0)
+			(at 223.52 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38034,7 +37636,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -38042,7 +37644,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 248.158 106.172 90)
+		(at 247.65 106.68 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38051,8 +37653,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7227403f-0726-4209-a3eb-957b8a09b45d")
-		(property "Reference" "TP?"
-			(at 241.554 106.172 90)
+		(property "Reference" "TP21"
+			(at 241.046 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38062,7 +37664,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 244.856 103.124 90)
+			(at 244.348 103.632 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38073,7 +37675,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.158 101.092 0)
+			(at 247.65 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38084,7 +37686,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.158 101.092 0)
+			(at 247.65 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38095,7 +37697,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 248.158 106.172 0)
+			(at 247.65 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38111,7 +37713,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -38128,7 +37730,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "787d2c5f-71f0-43d1-97e6-8842399b7fb4")
-		(property "Reference" "TP?"
+		(property "Reference" "TP10"
 			(at 186.436 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38188,7 +37790,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -38196,7 +37798,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 55.118 58.674 0)
+		(at 54.61 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38205,8 +37807,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7cd4783a-8659-43bb-8474-ed358e34d9cf")
-		(property "Reference" "JP?"
-			(at 58.42 57.404 0)
+		(property "Reference" "JP2"
+			(at 57.912 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38216,7 +37818,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Bridged"
-			(at 51.562 60.706 0)
+			(at 51.054 60.452 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38227,7 +37829,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.118 58.674 0)
+			(at 54.61 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38238,7 +37840,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.118 65.024 0)
+			(at 54.61 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38249,7 +37851,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 55.118 63.754 0)
+			(at 54.61 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38268,7 +37870,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "JP?")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -38276,7 +37878,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 80.264 161.29 270)
+		(at 80.01 161.29 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -38286,8 +37888,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8dd19d0b-3ecc-4825-aa2a-7aa5fd08c691")
-		(property "Reference" "R?"
-			(at 80.264 159.004 90)
+		(property "Reference" "R39"
+			(at 80.01 159.004 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38297,7 +37899,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 80.264 161.29 90)
+			(at 80.01 161.29 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38307,7 +37909,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.264 163.068 90)
+			(at 80.01 163.068 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38318,7 +37920,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.264 161.29 0)
+			(at 80.01 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38329,7 +37931,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 80.264 161.29 0)
+			(at 80.01 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38348,7 +37950,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R?")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -38356,7 +37958,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 152.908 38.1 0)
+		(at 152.4 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38365,8 +37967,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9cbb4d3b-f89a-44d7-b2d5-cf412d733ac8")
-		(property "Reference" "C?"
-			(at 150.114 35.814 0)
+		(property "Reference" "C37"
+			(at 149.606 35.814 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38377,7 +37979,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 147.828 40.894 0)
+			(at 147.32 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38388,7 +37990,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.8732 41.91 0)
+			(at 153.3652 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38399,7 +38001,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.908 38.1 0)
+			(at 152.4 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38410,7 +38012,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 152.908 38.1 0)
+			(at 152.4 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38429,7 +38031,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "C?")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -38437,7 +38039,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 223.012 106.172 90)
+		(at 223.52 106.68 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38446,8 +38048,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f0e4aa7-08e0-4518-9fac-c73314b1bfb4")
-		(property "Reference" "TP?"
-			(at 216.408 106.172 90)
+		(property "Reference" "TP14"
+			(at 216.916 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38457,7 +38059,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 219.71 103.124 90)
+			(at 220.218 103.632 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38468,7 +38070,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.012 101.092 0)
+			(at 223.52 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38479,7 +38081,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.012 101.092 0)
+			(at 223.52 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38490,7 +38092,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 223.012 106.172 0)
+			(at 223.52 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38506,7 +38108,136 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 133.35 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ffb2d7c-96fd-49d7-993c-5e6c44a30511")
+		(property "Reference" "Q3"
+			(at 138.938 139.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLML2030TRPBF"
+			(at 138.938 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/70/1/infineon_irlml2030_datasheet_en.pdf"
+			(at 133.35 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 133.35 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 133.35 158.115 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 133.35 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 133.35 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "IRLML2030TRPBF"
+			(at 133.35 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fdc2ecab-5cec-4dbb-84f0-f4101deebb48")
+		)
+		(pin "3"
+			(uuid "18ebb983-d216-42e1-ba71-c5f48f26ec3b")
+		)
+		(pin "2"
+			(uuid "0716f792-603d-4e62-b1bd-2b45b3076719")
+		)
+		(instances
+			(project "VehicleControlUnit"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -38523,7 +38254,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0f83812-7981-4393-8412-d8f1b51fcea5")
-		(property "Reference" "TP?"
+		(property "Reference" "TP13"
 			(at 186.436 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38583,7 +38314,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -38591,7 +38322,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 42.926 106.172 90)
+		(at 43.18 106.68 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38600,8 +38331,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1045176-da77-4894-87cc-c8af763b2401")
-		(property "Reference" "R?"
-			(at 42.926 103.886 90)
+		(property "Reference" "R36"
+			(at 43.18 104.394 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38611,7 +38342,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 42.926 106.172 90)
+			(at 43.18 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38621,7 +38352,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 42.926 107.95 90)
+			(at 43.18 108.458 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38632,7 +38363,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 42.926 106.172 0)
+			(at 43.18 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38643,7 +38374,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 42.926 106.172 0)
+			(at 43.18 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38662,7 +38393,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R?")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -38670,7 +38401,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 115.062 171.704 0)
+		(at 115.57 171.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38679,8 +38410,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3df68ec-a3a8-44f4-899a-fb632054e637")
-		(property "Reference" "D?"
-			(at 117.856 170.688 0)
+		(property "Reference" "D18"
+			(at 118.364 170.434 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38690,7 +38421,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 114.554 174.244 0)
+			(at 115.062 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38700,7 +38431,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.062 171.704 0)
+			(at 115.57 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38711,7 +38442,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.062 171.704 0)
+			(at 115.57 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38722,7 +38453,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 115.062 171.704 0)
+			(at 115.57 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38733,7 +38464,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 115.062 171.704 0)
+			(at 115.57 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38744,7 +38475,7 @@
 			)
 		)
 		(property "P/N" "LTST-C193KRKT-5A"
-			(at 115.062 171.704 0)
+			(at 115.57 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38763,7 +38494,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "D?")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -38771,7 +38502,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 122.936 144.272 90)
+		(at 123.19 144.78 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38780,8 +38511,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa1caeda-52c0-478a-875d-91136689fb01")
-		(property "Reference" "R?"
-			(at 123.19 146.558 90)
+		(property "Reference" "R41"
+			(at 123.444 147.066 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38791,7 +38522,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 122.936 144.272 90)
+			(at 123.19 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38801,7 +38532,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 122.936 146.05 90)
+			(at 123.19 146.558 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38812,7 +38543,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 122.936 144.272 0)
+			(at 123.19 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38823,7 +38554,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 122.936 144.272 0)
+			(at 123.19 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38842,7 +38573,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R?")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -38850,7 +38581,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 223.012 117.602 90)
+		(at 223.52 118.11 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38859,8 +38590,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aaf024b6-c71d-4f03-957f-d039ca58c6c6")
-		(property "Reference" "TP?"
-			(at 216.408 117.602 90)
+		(property "Reference" "TP17"
+			(at 216.916 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38870,7 +38601,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 219.71 114.554 90)
+			(at 220.218 115.062 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38881,7 +38612,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.012 112.522 0)
+			(at 223.52 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38892,7 +38623,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.012 112.522 0)
+			(at 223.52 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38903,7 +38634,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 223.012 117.602 0)
+			(at 223.52 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38919,7 +38650,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -38927,7 +38658,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 146.05 83.058 270)
+		(at 146.05 82.55 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38936,8 +38667,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "abc18006-f8e1-40cb-9d1f-4e81fa48d564")
-		(property "Reference" "C?"
-			(at 148.59 84.582 90)
+		(property "Reference" "C35"
+			(at 148.59 84.074 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38947,7 +38678,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 149.352 81.788 90)
+			(at 149.352 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38957,7 +38688,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 84.0232 0)
+			(at 142.24 83.5152 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38968,7 +38699,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 83.058 0)
+			(at 146.05 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38979,7 +38710,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 146.05 83.058 0)
+			(at 146.05 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38998,7 +38729,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "C?")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -39006,7 +38737,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 133.35 168.148 0)
+		(at 133.35 167.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -39016,8 +38747,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac700af8-f158-47e2-b38f-2d6a90d90774")
-		(property "Reference" "Q?"
-			(at 138.938 166.8779 0)
+		(property "Reference" "Q4"
+			(at 138.938 166.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39027,8 +38758,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
-			(at 138.938 169.4179 0)
+		(property "Value" "IRLML2030TRPBF"
+			(at 138.938 168.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39039,7 +38770,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 165.608 0)
+			(at 138.43 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39049,8 +38780,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 133.35 180.848 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/70/1/infineon_irlml2030_datasheet_en.pdf"
+			(at 133.35 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39061,7 +38792,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 133.35 168.148 0)
+			(at 133.35 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39072,7 +38803,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 133.35 185.293 0)
+			(at 133.35 184.785 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39083,7 +38814,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 133.35 187.198 0)
+			(at 133.35 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39094,7 +38825,18 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 133.35 183.388 0)
+			(at 133.35 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "IRLML2030TRPBF"
+			(at 133.35 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39116,7 +38858,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "Q?")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -39124,7 +38866,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 193.04 108.966 90)
+		(at 193.04 109.22 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -39133,8 +38875,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0053c43-b769-4df3-8c5d-bf0af3ab27c6")
-		(property "Reference" "TP?"
-			(at 186.436 108.966 90)
+		(property "Reference" "TP6"
+			(at 186.436 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39144,7 +38886,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 189.738 105.918 90)
+			(at 189.738 106.172 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39155,7 +38897,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 103.886 0)
+			(at 193.04 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39166,7 +38908,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 103.886 0)
+			(at 193.04 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39177,7 +38919,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 193.04 108.966 0)
+			(at 193.04 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39193,7 +38935,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -39201,7 +38943,7 @@
 	)
 	(symbol
 		(lib_id "ISO7741DWR:ISO7741DWR")
-		(at 46.99 90.932 0)
+		(at 46.99 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -39211,8 +38953,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9a37fd3-4eaf-4eff-9618-e8f1659ea1c3")
-		(property "Reference" "IC?"
-			(at 63.5 83.312 0)
+		(property "Reference" "IC6"
+			(at 63.5 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39222,7 +38964,7 @@
 			)
 		)
 		(property "Value" "ISO7741DWR"
-			(at 63.5 85.852 0)
+			(at 63.5 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39232,7 +38974,7 @@
 			)
 		)
 		(property "Footprint" "SOIC127P1030X265-16N"
-			(at 76.2 185.852 0)
+			(at 76.2 186.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39244,7 +38986,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/iso7741.pdf"
-			(at 76.2 285.852 0)
+			(at 76.2 286.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39256,7 +38998,7 @@
 			)
 		)
 		(property "Description" "Digital Isolators High-Speed, Low-Power, Robust EMC Quad-Channel Digital Isolator 16-SOIC -55 to 125"
-			(at 46.99 90.932 0)
+			(at 46.99 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39267,7 +39009,7 @@
 			)
 		)
 		(property "Height" "2.65"
-			(at 76.2 485.852 0)
+			(at 76.2 486.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39279,7 +39021,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-ISO7741DWR"
-			(at 76.2 585.852 0)
+			(at 76.2 586.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39291,7 +39033,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ISO7741DWR?qs=dSktwyqbRaVTkqg%252BCYHM7w%3D%3D"
-			(at 76.2 685.852 0)
+			(at 76.2 686.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39303,7 +39045,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 76.2 785.852 0)
+			(at 76.2 786.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39315,7 +39057,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ISO7741DWR"
-			(at 76.2 885.852 0)
+			(at 76.2 886.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39377,7 +39119,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "IC?")
+					(reference "IC6")
 					(unit 1)
 				)
 			)
@@ -39394,7 +39136,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bcef8867-f3b2-4e94-b5b7-e7456a272705")
-		(property "Reference" "TP?"
+		(property "Reference" "TP7"
 			(at 186.436 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39454,7 +39196,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -39462,7 +39204,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 38.608 161.29 90)
+		(at 38.1 161.29 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -39471,8 +39213,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1ac1e95-227c-456f-a677-b7a7cb9d747f")
-		(property "Reference" "R?"
-			(at 38.608 159.004 90)
+		(property "Reference" "R35"
+			(at 38.1 159.004 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39482,7 +39224,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 38.608 161.29 90)
+			(at 38.1 161.29 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39492,7 +39234,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.608 163.068 90)
+			(at 38.1 163.068 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39503,7 +39245,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.608 161.29 0)
+			(at 38.1 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39514,7 +39256,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 38.608 161.29 0)
+			(at 38.1 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39533,7 +39275,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R?")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -39541,7 +39283,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 147.32 33.274 90)
+		(at 147.32 33.02 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -39550,8 +39292,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c3a23a25-028f-4da1-9a44-485f8b09a6b7")
-		(property "Reference" "L?"
-			(at 145.288 31.242 90)
+		(property "Reference" "L2"
+			(at 145.288 30.988 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39561,7 +39303,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 149.352 31.242 90)
+			(at 149.352 30.988 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39571,7 +39313,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 33.274 0)
+			(at 147.32 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39582,7 +39324,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 33.274 0)
+			(at 147.32 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39593,7 +39335,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 147.32 33.274 0)
+			(at 147.32 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39612,7 +39354,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "L?")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -39620,7 +39362,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 193.04 118.364 90)
+		(at 193.04 118.11 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -39629,8 +39371,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4c700bf-526e-4e9e-9484-cfe43e3bd341")
-		(property "Reference" "TP?"
-			(at 186.436 118.364 90)
+		(property "Reference" "TP8"
+			(at 186.436 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39640,7 +39382,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 189.738 115.316 90)
+			(at 189.738 115.062 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39651,7 +39393,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 113.284 0)
+			(at 193.04 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39662,7 +39404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 113.284 0)
+			(at 193.04 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39673,7 +39415,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 193.04 118.364 0)
+			(at 193.04 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39689,7 +39431,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -39697,7 +39439,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 248.158 120.904 90)
+		(at 247.65 120.65 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -39706,8 +39448,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5e53eab-4ffa-4d0e-b621-89eeb5495084")
-		(property "Reference" "TP?"
-			(at 241.554 120.904 90)
+		(property "Reference" "TP26"
+			(at 241.046 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39717,7 +39459,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 244.856 117.856 90)
+			(at 244.348 117.602 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39728,7 +39470,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.158 115.824 0)
+			(at 247.65 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39739,7 +39481,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.158 115.824 0)
+			(at 247.65 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39750,7 +39492,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 248.158 120.904 0)
+			(at 247.65 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39766,7 +39508,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP26")
 					(unit 1)
 				)
 			)
@@ -39774,7 +39516,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 108.966 100.076 0)
+		(at 109.22 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -39783,8 +39525,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c67ce4fd-3946-4cf4-ad1e-710c19c89fb2")
-		(property "Reference" "JP?"
-			(at 105.918 101.6 0)
+		(property "Reference" "JP4"
+			(at 106.172 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39794,7 +39536,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Bridged"
-			(at 105.41 102.108 0)
+			(at 105.664 102.362 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39805,7 +39547,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 108.966 100.076 0)
+			(at 109.22 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39816,7 +39558,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 108.966 106.426 0)
+			(at 109.22 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39827,7 +39569,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 108.966 105.156 0)
+			(at 109.22 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39846,7 +39588,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "JP?")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -39854,7 +39596,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 46.228 58.674 90)
+		(at 45.72 58.42 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -39863,8 +39605,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb3ba144-e6b2-4e78-bafd-334588c426e7")
-		(property "Reference" "R?"
-			(at 46.482 56.388 90)
+		(property "Reference" "R37"
+			(at 45.974 56.134 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39874,7 +39616,7 @@
 			)
 		)
 		(property "Value" "60"
-			(at 46.228 58.674 90)
+			(at 45.72 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39884,7 +39626,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.228 60.452 90)
+			(at 45.72 60.198 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39895,7 +39637,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.228 58.674 0)
+			(at 45.72 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39906,7 +39648,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 46.228 58.674 0)
+			(at 45.72 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39925,7 +39667,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R?")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -39933,7 +39675,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 223.012 122.428 90)
+		(at 223.52 121.92 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -39942,8 +39684,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1d073e1-acff-46e3-b0a7-d525b38d1bc3")
-		(property "Reference" "TP?"
-			(at 216.408 122.428 90)
+		(property "Reference" "TP19"
+			(at 216.916 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39953,7 +39695,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 219.71 119.38 90)
+			(at 220.218 118.872 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39964,7 +39706,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.012 117.348 0)
+			(at 223.52 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39975,7 +39717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.012 117.348 0)
+			(at 223.52 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39986,7 +39728,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 223.012 122.428 0)
+			(at 223.52 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40002,7 +39744,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -40010,7 +39752,7 @@
 	)
 	(symbol
 		(lib_id "ISO1042QDWRQ1:ISO1042QDWRQ1")
-		(at 38.608 31.496 0)
+		(at 38.1 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -40020,8 +39762,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc2a20e1-11f3-4443-a85a-619bde2eda0a")
-		(property "Reference" "IC?"
-			(at 55.118 23.876 0)
+		(property "Reference" "IC4"
+			(at 54.61 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40031,7 +39773,7 @@
 			)
 		)
 		(property "Value" "ISO1042QDWRQ1"
-			(at 55.118 26.416 0)
+			(at 54.61 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40041,7 +39783,7 @@
 			)
 		)
 		(property "Footprint" "SOIC127P1030X265-16N"
-			(at 67.818 126.416 0)
+			(at 67.31 126.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40053,7 +39795,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/iso1042-q1"
-			(at 67.818 226.416 0)
+			(at 67.31 226.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40065,7 +39807,7 @@
 			)
 		)
 		(property "Description" "Automotive, isolated CAN transceiver with 70-V bus fault protection and flexible data rate"
-			(at 38.608 31.496 0)
+			(at 38.1 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40076,7 +39818,7 @@
 			)
 		)
 		(property "Height" "2.65"
-			(at 67.818 426.416 0)
+			(at 67.31 426.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40088,7 +39830,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-ISO1042QDWRQ1"
-			(at 67.818 526.416 0)
+			(at 67.31 526.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40100,7 +39842,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ISO1042QDWRQ1?qs=byeeYqUIh0PFe2yOOyF4fg%3D%3D"
-			(at 67.818 626.416 0)
+			(at 67.31 626.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40112,7 +39854,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 67.818 726.416 0)
+			(at 67.31 726.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40124,7 +39866,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ISO1042QDWRQ1"
-			(at 67.818 826.416 0)
+			(at 67.31 826.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40186,7 +39928,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "IC?")
+					(reference "IC4")
 					(unit 1)
 				)
 			)
@@ -40194,7 +39936,7 @@
 	)
 	(symbol
 		(lib_id "ISO7741DWR:ISO7741DWR")
-		(at 42.672 146.05 0)
+		(at 43.18 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -40203,8 +39945,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9fab80c-58f9-420b-932b-cdd394d4e627")
-		(property "Reference" "IC?"
-			(at 59.182 138.43 0)
+		(property "Reference" "IC5"
+			(at 59.69 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40214,7 +39956,7 @@
 			)
 		)
 		(property "Value" "ISO7741DWR"
-			(at 59.182 140.97 0)
+			(at 59.69 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40224,7 +39966,7 @@
 			)
 		)
 		(property "Footprint" "SOIC127P1030X265-16N"
-			(at 71.882 240.97 0)
+			(at 72.39 240.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40236,7 +39978,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/iso7741.pdf"
-			(at 71.882 340.97 0)
+			(at 72.39 340.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40248,7 +39990,7 @@
 			)
 		)
 		(property "Description" "Digital Isolators High-Speed, Low-Power, Robust EMC Quad-Channel Digital Isolator 16-SOIC -55 to 125"
-			(at 42.672 146.05 0)
+			(at 43.18 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40259,7 +40001,7 @@
 			)
 		)
 		(property "Height" "2.65"
-			(at 71.882 540.97 0)
+			(at 72.39 540.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40271,7 +40013,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-ISO7741DWR"
-			(at 71.882 640.97 0)
+			(at 72.39 640.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40283,7 +40025,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ISO7741DWR?qs=dSktwyqbRaVTkqg%252BCYHM7w%3D%3D"
-			(at 71.882 740.97 0)
+			(at 72.39 740.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40295,7 +40037,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 71.882 840.97 0)
+			(at 72.39 840.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40307,7 +40049,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ISO7741DWR"
-			(at 71.882 940.97 0)
+			(at 72.39 940.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40369,7 +40111,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "IC?")
+					(reference "IC5")
 					(unit 1)
 				)
 			)
@@ -40377,7 +40119,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 68.072 58.674 90)
+		(at 68.58 58.42 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -40386,8 +40128,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f059a27b-cff2-4e3e-b3ca-5f935c48d698")
-		(property "Reference" "R?"
-			(at 68.326 56.388 90)
+		(property "Reference" "R38"
+			(at 68.834 56.134 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40397,7 +40139,7 @@
 			)
 		)
 		(property "Value" "60"
-			(at 68.072 58.674 90)
+			(at 68.58 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40407,7 +40149,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.072 60.452 90)
+			(at 68.58 60.198 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40418,7 +40160,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.072 58.674 0)
+			(at 68.58 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40429,7 +40171,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 68.072 58.674 0)
+			(at 68.58 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40448,7 +40190,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R?")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -40456,7 +40198,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 108.966 97.536 0)
+		(at 109.22 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -40465,8 +40207,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f55395f0-41e3-4740-a488-a98652c4d04f")
-		(property "Reference" "JP?"
-			(at 105.918 96.266 0)
+		(property "Reference" "JP3"
+			(at 106.172 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40476,7 +40218,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 108.966 93.98 0)
+			(at 109.22 94.234 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40487,7 +40229,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 108.966 97.536 0)
+			(at 109.22 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40498,7 +40240,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 108.966 105.156 0)
+			(at 109.22 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40509,7 +40251,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 108.966 102.616 0)
+			(at 109.22 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40528,7 +40270,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "JP?")
+					(reference "JP3")
 					(unit 1)
 				)
 			)

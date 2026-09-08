@@ -28,7 +28,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|762000|546100|f3f509c2-d3e6-47a0-8366-eea0c15e95c6|dde996d6-302b-482b-b103-33bed2f0833e|/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/59ba047e-cc6c-42e3-939f-b33701d25ed0|/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/59ba047e-cc6c-42e3-939f-b33701d25ed0|/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/59ba047e-cc6c-42e3-939f-b33701d25ed0",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -390,16 +395,27 @@
     },
     "bus_aliases": {
       "DAC_SPI": [
-        "SPI_CS",
-        "SPI_MOSI",
-        "SPI_CLK"
+        "DAC_CS",
+        "DAC_MOSI",
+        "DAC_CLK"
+      ],
+      "I2C4": [
+        "ALERT",
+        "SDA",
+        "SCL"
       ],
       "SD_SPI": [
-        "SPI_CS",
-        "SPI_CLK",
-        "SPI_MISO",
-        "SPI_MOSI",
-        "SPI_DET"
+        "SD_CS",
+        "SD_CLK",
+        "SD_MISO",
+        "SD_MOSI",
+        "DET"
+      ],
+      "SPI3": [
+        "CS",
+        "CLK",
+        "MISO",
+        "MOSI"
       ]
     },
     "connection_grid_size": 50.0,
@@ -430,6 +446,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -442,7 +466,7 @@
         "uuid": "e864fac9-3897-46c9-9101-6d5488c6cd3a"
       }
     ],
-    "used_designators": "D1-7,#PWR1-10,#PWR13-18,J1-3,IC1-6,R1-27,#FLG1-4,#FLG9,C1-32,Reset1,CR1,FB1-2,JP1-4,L1,Q1-2,SW1,TP1-4,TP_3.3V1,U1-4,Y1",
+    "used_designators": "D1-25,#PWR1-19,J1-8,IC1-7,R1-63,#FLG1-14,C1-51,Reset1,CR1,FB1-2,JP1-4,L1-2,Q1-7,SW1,TP1-33,TP_3.3V1,U1-5,Y1,F1-6,PS1",
     "variants": []
   },
   "sheets": [
@@ -453,10 +477,6 @@
     [
       "dc3ab98d-8813-4545-9e4b-e0fd2f1fb432",
       "12VBuck"
-    ],
-    [
-      "8c80e70e-d3a1-489e-a463-e9494e34a65c",
-      "IO Conn"
     ],
     [
       "da76194f-59e6-4b82-959b-538a81e9eb86",
@@ -493,10 +513,6 @@
     [
       "f16a8bc3-f058-4d27-badd-0afc148d009e",
       "Power Regulation"
-    ],
-    [
-      "0ea102fd-1304-4ff7-b070-3b59a07fd3d5",
-      "USB_PD"
     ],
     [
       "59ba047e-cc6c-42e3-939f-b33701d25ed0",
