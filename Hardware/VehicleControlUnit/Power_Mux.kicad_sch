@@ -1795,7 +1795,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "01ead70c-0165-4879-828f-f34459038239")
-		(property "Reference" "C41"
+		(property "Reference" "C43"
 			(at 91.8972 57.2516 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1887,7 +1887,7 @@
 			)
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/59ba047e-cc6c-42e3-939f-b33701d25ed0"
-					(reference "C41")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -2000,7 +2000,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "34e6f2ae-d271-4a6d-9148-a06a796ccc05")
-		(property "Reference" "C38"
+		(property "Reference" "C40"
 			(at 24.5872 44.5516 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2092,7 +2092,7 @@
 			)
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/59ba047e-cc6c-42e3-939f-b33701d25ed0"
-					(reference "C38")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -2272,7 +2272,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b11a1149-af1e-4d2e-b9ef-9558fb40c6e9")
-		(property "Reference" "C40"
+		(property "Reference" "C42"
 			(at 42.3672 67.4116 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2364,7 +2364,7 @@
 			)
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/59ba047e-cc6c-42e3-939f-b33701d25ed0"
-					(reference "C40")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -2381,7 +2381,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fffce44d-6a2f-431a-a7e0-1c503bf34ef7")
-		(property "Reference" "C39"
+		(property "Reference" "C41"
 			(at 38.5572 44.5516 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2473,7 +2473,7 @@
 			)
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/59ba047e-cc6c-42e3-939f-b33701d25ed0"
-					(reference "C39")
+					(reference "C41")
 					(unit 1)
 				)
 			)

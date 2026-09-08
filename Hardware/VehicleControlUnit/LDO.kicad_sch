@@ -2536,7 +2536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4f2214a-2ce0-46ee-8112-eb186d99027f")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG08"
 			(at 142.24 65.405 0)
 			(hide yes)
 			(show_name no)
@@ -2597,7 +2597,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/da76194f-59e6-4b82-959b-538a81e9eb86"
-					(reference "#FLG04")
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)
