@@ -30,7 +30,7 @@
   "erc": {
     "erc_exclusions": [
       [
-        "pin_to_pin|762000|546100|f3f509c2-d3e6-47a0-8366-eea0c15e95c6|dde996d6-302b-482b-b103-33bed2f0833e|/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/59ba047e-cc6c-42e3-939f-b33701d25ed0|/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/59ba047e-cc6c-42e3-939f-b33701d25ed0|/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/59ba047e-cc6c-42e3-939f-b33701d25ed0",
+        "pin_to_pin|762000|546100|f3f509c2-d3e6-47a0-8366-eea0c15e95c6|dde996d6-302b-482b-b103-33bed2f0833e|||",
         ""
       ]
     ],
@@ -466,7 +466,7 @@
         "uuid": "e864fac9-3897-46c9-9101-6d5488c6cd3a"
       }
     ],
-    "used_designators": "#PWR1-19,D1-25,R1-63,#FLG1-14,IC1-7,J1-8,C1-51,CR1,Reset1,FB1-2,JP1-5,L1-2,Q1-7,SW1,TP1-33,TP_3.3V1,U1-5,Y1,F1-6,PS1",
+    "used_designators": "#PWR1-27,D1-25,R1-63,#FLG1-14,IC1-7,J1-11,C1-51,CR1,Reset1,FB1-2,JP1-5,L1-2,Q1-7,SW1,TP1-33,TP_3.3V1,U1-5,Y1,F1-6,PS1",
     "variants": []
   },
   "sheets": [

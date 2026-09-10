@@ -1119,6 +1119,12 @@
 		(uuid "10ba04c3-5052-4ea6-95cf-19d8b74a04a1")
 	)
 	(junction
+		(at 62.23 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1224f15c-b96b-455c-b1a9-f0ca40f3497e")
+	)
+	(junction
 		(at 52.07 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1129,6 +1135,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "527be3d1-9872-461e-8ab3-654a91bd1d34")
+	)
+	(junction
+		(at 62.23 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8813b3c0-a2fe-4cee-9597-0cc855a525e9")
 	)
 	(junction
 		(at 109.22 77.47)
@@ -1155,12 +1167,6 @@
 		(uuid "9fe320b1-1927-4e5e-85a4-0f5c8aa08acd")
 	)
 	(junction
-		(at 68.58 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca046a6b-8f8a-436f-a224-1be5c2aba28e")
-	)
-	(junction
 		(at 91.44 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1171,12 +1177,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed3b9920-3cad-4426-970c-51cbfd6a11c1")
-	)
-	(junction
-		(at 53.34 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ee35f007-78c8-47b2-b0bc-4160abad8060")
 	)
 	(junction
 		(at 52.07 54.61)
@@ -1210,16 +1210,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 78.74) (xy 68.58 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00e2cbf3-adc9-4672-8ae0-d6b1e624407a")
-	)
-	(wire
-		(pts
 			(xy 91.44 76.2) (xy 100.33 76.2)
 		)
 		(stroke
@@ -1227,6 +1217,26 @@
 			(type default)
 		)
 		(uuid "0100e0ec-25a0-4122-9e0e-4d8c33dbf26b")
+	)
+	(wire
+		(pts
+			(xy 62.23 88.9) (xy 66.04 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01320a9a-a71c-4131-b503-3aa979515fe5")
+	)
+	(wire
+		(pts
+			(xy 57.15 77.47) (xy 58.42 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "013b1b78-8b49-4827-8713-1d5f7aa887ce")
 	)
 	(wire
 		(pts
@@ -1260,6 +1270,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 78.74) (xy 57.15 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1054a601-1279-4516-b3dd-991e91a71ced")
+	)
+	(wire
+		(pts
 			(xy 66.04 49.53) (xy 76.2 49.53)
 		)
 		(stroke
@@ -1290,16 +1310,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 77.47) (xy 68.58 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28606bbb-1796-47a2-bfea-b07cc75b7d49")
-	)
-	(wire
-		(pts
 			(xy 109.22 77.47) (xy 110.49 77.47)
 		)
 		(stroke
@@ -1320,16 +1330,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 86.36) (xy 54.61 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3130aa74-76e4-4a19-a597-22b854bb93f1")
-	)
-	(wire
-		(pts
 			(xy 113.03 49.53) (xy 118.11 49.53)
 		)
 		(stroke
@@ -1337,6 +1337,16 @@
 			(type default)
 		)
 		(uuid "32138e2b-7acb-4d0f-8966-1323e2e1dcba")
+	)
+	(wire
+		(pts
+			(xy 67.31 78.74) (xy 67.31 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "343a8f8c-5e73-4b46-843e-62c9debf34ab")
 	)
 	(wire
 		(pts
@@ -1400,16 +1410,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 77.47) (xy 67.31 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57cc4ada-67cc-4362-a5e2-682c399f6521")
-	)
-	(wire
-		(pts
 			(xy 52.07 54.61) (xy 57.15 54.61)
 		)
 		(stroke
@@ -1437,6 +1437,16 @@
 			(type default)
 		)
 		(uuid "66cb180a-fdb9-46af-8cd4-f225a6b1c8a6")
+	)
+	(wire
+		(pts
+			(xy 58.42 76.2) (xy 62.23 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b7608a7-ddfa-4671-a96e-6fb8567abdcd")
 	)
 	(wire
 		(pts
@@ -1540,36 +1550,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 86.36) (xy 53.34 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e189609-cc49-4a3c-9edb-4dc529efd031")
-	)
-	(wire
-		(pts
-			(xy 64.77 86.36) (xy 68.58 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5b91aa4-1b49-4c88-938a-f5010be7fcf2")
-	)
-	(wire
-		(pts
-			(xy 53.34 77.47) (xy 57.15 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a81bf4d4-2ea3-41cf-82c7-cf36e2a42186")
-	)
-	(wire
-		(pts
 			(xy 74.93 46.99) (xy 74.93 55.88)
 		)
 		(stroke
@@ -1580,6 +1560,26 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 86.36) (xy 57.15 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa929011-1cc7-46e0-83f5-5841c33b7e59")
+	)
+	(wire
+		(pts
+			(xy 67.31 86.36) (xy 67.31 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "add20e52-efe4-4243-9f62-e885f84c7fe9")
+	)
+	(wire
+		(pts
 			(xy 66.04 38.1) (xy 69.85 38.1)
 		)
 		(stroke
@@ -1587,6 +1587,16 @@
 			(type default)
 		)
 		(uuid "aeb0a132-d0a1-45d6-b78a-25dbabe6e254")
+	)
+	(wire
+		(pts
+			(xy 67.31 77.47) (xy 66.04 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b658c4e3-8b02-46b7-a663-a7c548b89292")
 	)
 	(wire
 		(pts
@@ -1610,13 +1620,13 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 77.47) (xy 53.34 85.09)
+			(xy 57.15 87.63) (xy 58.42 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "caa690e8-233f-45ff-8a21-39a9af744af6")
+		(uuid "c8477c5c-1a2f-4417-838b-b7ef8bcf59b6")
 	)
 	(wire
 		(pts
@@ -1640,16 +1650,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 86.36) (xy 69.85 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc19b346-fb0d-4b8b-ac11-a686e004a1c4")
-	)
-	(wire
-		(pts
 			(xy 57.15 55.88) (xy 57.15 54.61)
 		)
 		(stroke
@@ -1657,6 +1657,16 @@
 			(type default)
 		)
 		(uuid "dccd755d-d197-4434-ae97-7fa92bd1a97a")
+	)
+	(wire
+		(pts
+			(xy 62.23 88.9) (xy 62.23 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dce4bb40-42a7-43c4-b5bd-4020560c7aee")
 	)
 	(wire
 		(pts
@@ -1687,6 +1697,16 @@
 			(type default)
 		)
 		(uuid "e9ddbba4-41c1-4b8f-9fb2-f213164d19cc")
+	)
+	(wire
+		(pts
+			(xy 66.04 88.9) (xy 67.31 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea3b8d0a-99a1-4fb9-94d7-9e292bc36e88")
 	)
 	(wire
 		(pts
@@ -1740,6 +1760,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 88.9) (xy 62.23 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8445b58-b928-4c33-b45f-90ffb5c81965")
+	)
+	(wire
+		(pts
 			(xy 111.76 49.53) (xy 113.03 49.53)
 		)
 		(stroke
@@ -1747,6 +1777,16 @@
 			(type default)
 		)
 		(uuid "fdeab84f-b3ec-4b8f-aec0-5558bd396b75")
+	)
+	(wire
+		(pts
+			(xy 62.23 76.2) (xy 66.04 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff12b61a-4582-4b3c-948f-1779a1ee754c")
 	)
 	(image
 		(at 149.86 67.056)
@@ -9021,7 +9061,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 69.85 86.36 0)
+		(at 62.23 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9085,7 +9125,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0279b168-96ad-4587-a02e-9070e68f866c")
-		(property "Reference" "R28"
+		(property "Reference" "R33"
 			(at 62.992 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9147,7 +9187,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
-					(reference "R28")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -9155,7 +9195,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 53.34 77.47 0)
+		(at 62.23 76.2 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9165,8 +9205,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b2f0039-2bf9-41a9-9490-e11b9bb498b8")
-		(property "Reference" "#PWR018"
-			(at 53.34 81.28 0)
+		(property "Reference" "#PWR026"
+			(at 62.23 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9177,7 +9217,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 53.34 73.66 0)
+			(at 62.23 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9187,7 +9227,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 77.47 0)
+			(at 62.23 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9198,7 +9238,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 77.47 0)
+			(at 62.23 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9209,7 +9249,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 53.34 77.47 0)
+			(at 62.23 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9225,7 +9265,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
-					(reference "#PWR018")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -9242,7 +9282,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f8e4d6e-3c8b-4da8-8fa4-4c738ebb7285")
-		(property "Reference" "R33"
+		(property "Reference" "R38"
 			(at 110.49 43.434 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9304,7 +9344,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
-					(reference "R33")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -9312,7 +9352,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 60.96 86.36 0)
+		(at 57.15 82.55 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -9322,8 +9362,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "274612e0-3eb4-4fe0-85a9-068462407217")
-		(property "Reference" "D16"
-			(at 59.944 83.312 0)
+		(property "Reference" "D15"
+			(at 60.198 81.534 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9334,7 +9374,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 55.88 89.408 0)
+			(at 54.102 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9345,7 +9385,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 86.36 0)
+			(at 57.15 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9356,7 +9396,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 86.36 0)
+			(at 57.15 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9367,7 +9407,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 60.96 86.36 0)
+			(at 57.15 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9386,7 +9426,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
-					(reference "D16")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -9484,7 +9524,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5eebc023-7248-4e54-b4e9-3695d3ffba45")
-		(property "Reference" "R32"
+		(property "Reference" "R37"
 			(at 104.648 81.026 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9546,7 +9586,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
-					(reference "R32")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -9749,7 +9789,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7573c283-b5fa-4538-ae27-33ad00549053")
-		(property "Reference" "R34"
+		(property "Reference" "R39"
 			(at 119.888 43.434 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9811,7 +9851,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
-					(reference "R34")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -9828,7 +9868,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97570b1f-21fa-4533-ae35-6a13f51e3448")
-		(property "Reference" "R29"
+		(property "Reference" "R34"
 			(at 68.58 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9890,7 +9930,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
-					(reference "R29")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -9988,7 +10028,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b028c974-5b46-42df-935d-92e434d71c63")
-		(property "Reference" "R31"
+		(property "Reference" "R36"
 			(at 104.14 74.168 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10050,7 +10090,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
-					(reference "R31")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -10067,7 +10107,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf1e6e2f-b734-4587-b76b-4eccfdfc54bb")
-		(property "Reference" "R30"
+		(property "Reference" "R35"
 			(at 77.724 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10129,7 +10169,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
-					(reference "R30")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -10137,7 +10177,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 60.96 77.47 0)
+		(at 67.31 82.55 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -10147,8 +10187,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc31a2f8-3160-4548-8039-259a69916061")
-		(property "Reference" "D15"
-			(at 59.944 74.422 0)
+		(property "Reference" "D16"
+			(at 70.358 81.534 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10159,7 +10199,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 55.88 80.518 0)
+			(at 64.262 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10170,7 +10210,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 77.47 0)
+			(at 67.31 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10181,7 +10221,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 77.47 0)
+			(at 67.31 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10192,7 +10232,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 60.96 77.47 0)
+			(at 67.31 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10211,7 +10251,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
-					(reference "D15")
+					(reference "D16")
 					(unit 1)
 				)
 			)

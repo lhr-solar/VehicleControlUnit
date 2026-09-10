@@ -1904,7 +1904,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b5b7fd6-b1a2-49bf-aab6-5b1c87c9f917")
-		(property "Reference" "R46"
+		(property "Reference" "R53"
 			(at 78.994 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1983,7 +1983,7 @@
 			)
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/59ba047e-cc6c-42e3-939f-b33701d25ed0"
-					(reference "R46")
+					(reference "R53")
 					(unit 1)
 				)
 			)
