@@ -5291,87 +5291,6 @@
 		(uuid "d4b220b6-0bfb-4e81-a6a0-7446c58193d0")
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 129.54 90.17 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0080b75d-17e1-44a9-a149-150b85562bd3")
-		(property "Reference" "C13"
-			(at 125.984 89.154 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 132.842 88.392 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 128.5748 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 129.54 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "be2af841-e381-44dc-bac9-156ad95aff12")
-		)
-		(pin "1"
-			(uuid "344f85a3-e957-43a1-8da1-aefb08a1917c")
-		)
-		(instances
-			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/19de6bb4-fd37-45ed-ab7a-91a6842df4d8"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "lhrs_power:SMAF4758A")
 		(at 43.18 83.82 270)
 		(unit 1)
@@ -5382,7 +5301,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "03fbb6c3-15d6-4535-82c3-c84cadec759c")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 40.64 82.296 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5437,16 +5356,44 @@
 				)
 			)
 		)
+		(property "P/N" "SMAF4758A"
+			(at 43.18 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C183490"
+			(at 43.18 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "d9ccbc07-7cea-46c0-a849-ec1dfea833f9")
+			(uuid "7d02ff4d-a800-4020-aa3d-66b049830cab")
 		)
 		(pin "1"
-			(uuid "0cbcde59-feda-42f4-8f26-2c0dd4a98ace")
+			(uuid "5e748cb0-e53f-40b0-91b1-07ac45b63683")
 		)
 		(instances
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
+					(reference "D1")
+					(unit 1)
+				)
+			)
 			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/19de6bb4-fd37-45ed-ab7a-91a6842df4d8"
-					(reference "D3")
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/3fe1e163-4ca3-4766-9a9b-19e149cc385e"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -5465,7 +5412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "042b9804-47b9-407a-87bf-5006a6aed699")
-		(property "Reference" "C9"
+		(property "Reference" "C3"
 			(at 57.785 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5520,7 +5467,7 @@
 				)
 			)
 		)
-		(property "P/N" "MSASU168SB7224KTNB25"
+		(property "P/N" "CC0603KRX7R9BB224"
 			(at 54.61 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -5531,18 +5478,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "963-MSASU168SB7224KT"
-			(at 54.61 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC P/N" "C344195"
+		(property "LCSC P/N" "C107083"
 			(at 54.61 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -5554,15 +5490,21 @@
 			)
 		)
 		(pin "2"
-			(uuid "f463d30e-7b2f-4df3-9c46-3ce5c7b121f6")
+			(uuid "e6ec2750-611c-4978-b4e3-4c8b3d1a6a71")
 		)
 		(pin "1"
-			(uuid "66a9ce88-2bed-4d14-adde-9abf71b884ec")
+			(uuid "f9d9acae-c388-43fe-ae6c-919b776cecc8")
 		)
 		(instances
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/19de6bb4-fd37-45ed-ab7a-91a6842df4d8"
-					(reference "C9")
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/3fe1e163-4ca3-4766-9a9b-19e149cc385e"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -5579,7 +5521,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "199aa610-9666-48a9-b1cc-4d7400331b7d")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 22.606 49.276 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5657,15 +5599,21 @@
 			)
 		)
 		(pin "2"
-			(uuid "6631e38b-ffb5-4bc4-9a45-5c89a5e4f5e8")
+			(uuid "4cd193c0-c10e-4f8e-a4a4-73c6fde8eaa4")
 		)
 		(pin "1"
-			(uuid "9f958f1b-56c4-463d-9256-1ec713435206")
+			(uuid "95a2e7fe-75c5-4fd0-817b-11bbddf8b6de")
 		)
 		(instances
-			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/19de6bb4-fd37-45ed-ab7a-91a6842df4d8"
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+			(project "VehicleControlUnit"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/3fe1e163-4ca3-4766-9a9b-19e149cc385e"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -5683,7 +5631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c45fc8a-bcc4-4313-aeca-374a3cb5e0de")
-		(property "Reference" "R7"
+		(property "Reference" "R5"
 			(at 45.72 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5738,18 +5686,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEI"
-			(at 43.18 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW060310K0FKEI"
+		(property "P/N" "0603WAF1002T5E"
 			(at 43.18 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5772,15 +5709,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "5758bf57-b388-4af4-b9ff-fa3c86f095a0")
+			(uuid "b7c3b8b5-cbf5-4fa5-811a-dc531978d7a7")
 		)
 		(pin "2"
-			(uuid "d983bba2-4507-4063-8bb0-4499fad48be8")
+			(uuid "946c82e9-2a41-4fdd-b666-b0135d3eb8f3")
 		)
 		(instances
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/19de6bb4-fd37-45ed-ab7a-91a6842df4d8"
-					(reference "R7")
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/3fe1e163-4ca3-4766-9a9b-19e149cc385e"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -5797,7 +5740,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "30175d18-769c-4cf5-98fe-c1abd5d1092e")
-		(property "Reference" "R12"
+		(property "Reference" "R10"
 			(at 137.668 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5850,7 +5793,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW0603137KFKEA"
+		(property "P/N" "CRCW060315K8FKEA"
 			(at 139.7 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -5861,7 +5804,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C2090646"
+		(property "LCSC P/N" "C843918"
 			(at 139.7 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -5873,15 +5816,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "be627c0d-ad9c-462d-9908-495d24cb8819")
+			(uuid "7e57423b-4702-470b-bcd8-4db62b0918d3")
 		)
 		(pin "2"
-			(uuid "6e062c64-9bf6-4a8e-a768-be2977d552a5")
+			(uuid "d49d998a-7d58-4ef5-a0a6-cdb77e4be921")
 		)
 		(instances
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
+					(reference "R6")
+					(unit 1)
+				)
+			)
 			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/19de6bb4-fd37-45ed-ab7a-91a6842df4d8"
-					(reference "R12")
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/3fe1e163-4ca3-4766-9a9b-19e149cc385e"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -5898,7 +5847,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "554c6273-4c35-418e-b9d9-5d7b3feeab64")
-		(property "Reference" "C7"
+		(property "Reference" "C1"
 			(at 38.1 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5953,7 +5902,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASH168SB7104KTNA01"
+		(property "P/N" "CL10B104KB8NNNC"
 			(at 34.29 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5964,7 +5913,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C14663"
+		(property "LCSC P/N" "C1591"
 			(at 34.29 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5976,15 +5925,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "91b54363-d34c-4aaa-884a-12cce6299db4")
+			(uuid "5c47b456-ab13-454c-8204-d028bbdd6949")
 		)
 		(pin "2"
-			(uuid "9d26a585-7eb5-41e7-9579-770c43befc8a")
+			(uuid "281737f7-b873-4ea9-b36d-20eeb6fe54b3")
 		)
 		(instances
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/19de6bb4-fd37-45ed-ab7a-91a6842df4d8"
-					(reference "C7")
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/3fe1e163-4ca3-4766-9a9b-19e149cc385e"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -6001,7 +5956,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5f8c95be-4bec-4715-b67b-6a9afc6a3131")
-		(property "Reference" "R8"
+		(property "Reference" "R6"
 			(at 67.31 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6054,7 +6009,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060333R0FKEA"
+		(property "P/N" "MCT06030C3309FP500"
 			(at 67.31 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6065,7 +6020,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "594-MCT06030C2003FP5"
+		(property "Mouser Part Number" "594-MCT06030C3309FP5 "
 			(at 67.31 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6076,7 +6031,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C844927"
+		(property "LCSC P/N" "C2074308"
 			(at 67.31 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6088,96 +6043,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "b7b0f057-c9b5-4851-bf3b-0b5cb4d685fb")
+			(uuid "9111c358-2dea-4039-ab9b-bd8826055118")
 		)
 		(pin "2"
-			(uuid "e4aba6c4-0f34-49a9-a5eb-b52bd4b4dd6f")
+			(uuid "29791019-0f69-4fe6-ba20-4a5478f060fc")
 		)
 		(instances
-			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/19de6bb4-fd37-45ed-ab7a-91a6842df4d8"
-					(reference "R8")
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
+					(reference "R3")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 110.49 90.17 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "695f9767-116e-48fc-b456-831abf151e72")
-		(property "Reference" "C12"
-			(at 107.188 88.9 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 114.046 88.392 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 109.5248 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 110.49 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7887ccc0-d937-477d-8207-5b5136ef0913")
-		)
-		(pin "1"
-			(uuid "9c96167e-337c-4ec2-864b-c43214763c7b")
-		)
-		(instances
 			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/19de6bb4-fd37-45ed-ab7a-91a6842df4d8"
-					(reference "C12")
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/3fe1e163-4ca3-4766-9a9b-19e149cc385e"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6332,32 +6212,38 @@
 			)
 		)
 		(pin "1"
-			(uuid "cb156695-334c-4b8b-884e-7a1aca73520d")
+			(uuid "15464505-9b61-408d-b348-94e254fc0a0e")
 		)
 		(pin "4"
-			(uuid "5596aa11-87e5-4c59-8f82-b77527de938d")
+			(uuid "b4b24035-4311-4a64-92bf-fb1f362bd549")
 		)
 		(pin "8"
-			(uuid "6f6d6975-6b8f-4aa7-a452-84ab740b0610")
+			(uuid "faf0d688-d927-411c-b1dd-f34026120b60")
 		)
 		(pin "2"
-			(uuid "1b4debd9-aa00-45e7-95d0-b5986bd34304")
+			(uuid "63e1b463-69db-41ab-b8e0-3bd9329a9ad0")
 		)
 		(pin "3"
-			(uuid "2978bed4-319e-4bac-8e70-1ee313dcf5b9")
+			(uuid "09345da6-15b4-4b29-9da3-5a2281f15759")
 		)
 		(pin "6"
-			(uuid "4a4fd3a8-5579-4f15-a437-7621bf6ca9ab")
+			(uuid "eab9463f-095e-4423-b3f6-278a1fdebb35")
 		)
 		(pin "7"
-			(uuid "c2dad109-0b39-4797-8f2a-2e1743a7bfb9")
+			(uuid "33a9ec17-46a1-459b-9ebf-e563f1d4603c")
 		)
 		(pin "5"
-			(uuid "20cd72eb-b5d5-4bb1-a336-476ebef396fb")
+			(uuid "4f095c0e-e107-4893-8afc-81e0b514544e")
 		)
 		(instances
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
+					(reference "IC1")
+					(unit 1)
+				)
+			)
 			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/19de6bb4-fd37-45ed-ab7a-91a6842df4d8"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/3fe1e163-4ca3-4766-9a9b-19e149cc385e"
 					(reference "IC1")
 					(unit 1)
 				)
@@ -6484,24 +6370,139 @@
 			)
 		)
 		(pin "5"
-			(uuid "6af594fa-83e4-49e1-998a-b5f45520708c")
+			(uuid "4b98cea2-7461-40e8-82ef-9693bb819fe2")
 		)
 		(pin "3"
-			(uuid "8812a7f7-c286-4d90-ae2d-01d2ea9277c8")
+			(uuid "be493825-8fad-445b-b029-33709d004dc7")
 		)
 		(pin "4"
-			(uuid "dec58fae-c5fa-494a-b27f-b563d110529f")
+			(uuid "fb10b657-f866-4aff-aa03-8c2342338181")
 		)
 		(pin "2"
-			(uuid "437f8f4d-f0f8-4694-9590-b0ceee7ab458")
+			(uuid "f015362e-24a7-434a-97fa-b40b838d8501")
 		)
 		(pin "1"
-			(uuid "09ba9fe4-0948-45c8-800b-0fb64e0ecdc2")
+			(uuid "c5debda0-5775-4708-a1e8-8a60a21f1178")
 		)
 		(instances
-			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/19de6bb4-fd37-45ed-ab7a-91a6842df4d8"
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+			(project "VehicleControlUnit"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/3fe1e163-4ca3-4766-9a9b-19e149cc385e"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 110.49 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9ad8d2ea-210c-4b9b-a887-7ae5ea15f9b5")
+		(property "Reference" "C6"
+			(at 113.284 89.154 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 113.03 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 111.4552 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 110.49 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CL10B104KB8NNNC"
+			(at 110.49 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C1591"
+			(at 110.49 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "895e779b-ef52-4051-a908-67797d19d382")
+		)
+		(pin "2"
+			(uuid "2cc562ca-4b0c-40c7-a2f8-639421910e27")
+		)
+		(instances
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+			(project "VehicleControlUnit"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/3fe1e163-4ca3-4766-9a9b-19e149cc385e"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -6518,7 +6519,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b1ddc4f-24aa-46be-8d1e-e07bf585137f")
-		(property "Reference" "C10"
+		(property "Reference" "C4"
 			(at 54.864 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6573,7 +6574,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C57112"
+		(property "P/N" "CC0603KRX7R9BB103"
 			(at 60.96 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6584,7 +6585,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "MSASH168SB5103KTNA01"
+		(property "LCSC P/N" "C100042"
 			(at 60.96 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6596,15 +6597,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "5ba381ec-8f7f-43f9-910c-1c4de4f04995")
+			(uuid "816aa9b1-27e4-4872-93e3-95afb7ebca4b")
 		)
 		(pin "2"
-			(uuid "125f7c41-cfb4-4389-9c92-ea1e22b6bc5d")
+			(uuid "309f94e3-54a5-4810-bdad-3dd52cc5ab36")
 		)
 		(instances
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
+					(reference "C4")
+					(unit 1)
+				)
+			)
 			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/19de6bb4-fd37-45ed-ab7a-91a6842df4d8"
-					(reference "C10")
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/3fe1e163-4ca3-4766-9a9b-19e149cc385e"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -6621,7 +6628,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a4deae88-7df1-4411-8ab3-b2332c17194a")
-		(property "Reference" "C11"
+		(property "Reference" "C5"
 			(at 112.395 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6676,7 +6683,7 @@
 				)
 			)
 		)
-		(property "P/N" "GRM21BR61H106KE43K"
+		(property "P/N" "GRM21BR61H106KE43L"
 			(at 109.22 53.975 0)
 			(hide yes)
 			(show_name no)
@@ -6699,15 +6706,21 @@
 			)
 		)
 		(pin "2"
-			(uuid "e78ac183-43fc-49b4-b7f3-c32b59db712f")
+			(uuid "6d918cc5-c8d5-43c2-8338-ae65813ec49e")
 		)
 		(pin "1"
-			(uuid "a3e774de-4040-4d65-a075-3211a0dee584")
+			(uuid "77d3cc07-1a18-4d45-b693-9b822b12b0e7")
 		)
 		(instances
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
+					(reference "C5")
+					(unit 1)
+				)
+			)
 			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/19de6bb4-fd37-45ed-ab7a-91a6842df4d8"
-					(reference "C11")
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/3fe1e163-4ca3-4766-9a9b-19e149cc385e"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -6834,23 +6847,29 @@
 			)
 		)
 		(pin "5"
-			(uuid "56760752-d275-4371-b9fd-73f8ce1b1c39")
+			(uuid "6cd9f245-5d90-4881-95ac-9f6e7c179bfa")
 		)
 		(pin "3"
-			(uuid "785945bb-c706-49ed-9242-e8a59473423b")
+			(uuid "9e1121a0-69f9-4015-aeda-551785ca42ab")
 		)
 		(pin "4"
-			(uuid "4c236639-635c-407b-b0e0-bedb60c2592f")
+			(uuid "93c04fb5-f540-4305-bbe1-095e97875b25")
 		)
 		(pin "2"
-			(uuid "4565a17f-d695-4300-9a2d-0b92c3606eb2")
+			(uuid "68b48d7c-6689-4847-b68d-4455e8f05d05")
 		)
 		(pin "1"
-			(uuid "abf94842-a01b-40ce-8329-ce8428356728")
+			(uuid "cee5174e-8239-481f-a727-9c8227ed9398")
 		)
 		(instances
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
 			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/19de6bb4-fd37-45ed-ab7a-91a6842df4d8"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/3fe1e163-4ca3-4766-9a9b-19e149cc385e"
 					(reference "Q2")
 					(unit 1)
 				)
@@ -6868,7 +6887,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be94d869-90f2-4669-bef8-7f9b9e85a653")
-		(property "Reference" "R10"
+		(property "Reference" "R8"
 			(at 118.618 90.424 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6921,7 +6940,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEI"
+		(property "P/N" "RT0603BRE077K32L"
 			(at 120.65 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6932,7 +6951,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C25804"
+		(property "LCSC P/N" "C862286"
 			(at 120.65 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -6944,15 +6963,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "48eb8406-4a64-436c-8afa-18f8d5b9bd71")
+			(uuid "751598e8-89a0-4294-bcf4-3da7afe3c3a7")
 		)
 		(pin "2"
-			(uuid "6b3710d5-7eae-4ede-9a0e-dd59b045823e")
+			(uuid "406432ec-87a4-4e2b-9a18-6216aa7a1fad")
 		)
 		(instances
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/19de6bb4-fd37-45ed-ab7a-91a6842df4d8"
-					(reference "R10")
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/3fe1e163-4ca3-4766-9a9b-19e149cc385e"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6970,7 +6995,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c99346f3-cf25-4b2b-b50c-e7e063bd40c1")
-		(property "Reference" "C8"
+		(property "Reference" "C2"
 			(at 31.75 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7025,7 +7050,7 @@
 				)
 			)
 		)
-		(property "P/N" "MLASU168SB5105KTNA01"
+		(property "P/N" "CC0603KRX7R9BB105"
 			(at 32.385 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -7036,7 +7061,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C15849"
+		(property "LCSC P/N" "C559769"
 			(at 35.56 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -7048,15 +7073,130 @@
 			)
 		)
 		(pin "2"
-			(uuid "e7a6a08d-52f0-4441-87a6-f8df997253f5")
+			(uuid "c25b94cb-e033-4c0d-8a3c-c233e6cf28fe")
 		)
 		(pin "1"
-			(uuid "532739d1-5f19-4d7e-8594-85557cec8b48")
+			(uuid "9d3ac516-d454-4796-ba93-a6180966152d")
 		)
 		(instances
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/19de6bb4-fd37-45ed-ab7a-91a6842df4d8"
-					(reference "C8")
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/3fe1e163-4ca3-4766-9a9b-19e149cc385e"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 129.54 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d82c2d9c-5f25-43a3-bd89-29d34615c72c")
+		(property "Reference" "C7"
+			(at 132.08 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 131.826 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 130.5052 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 129.54 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CL10B104KB8NNNC"
+			(at 129.54 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C1591"
+			(at 129.54 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e2f31ea3-a8a2-4336-9b12-f84fa7f3521a")
+		)
+		(pin "2"
+			(uuid "aa9e46f1-16e6-441f-88d2-e09f0d866751")
+		)
+		(instances
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+			(project "VehicleControlUnit"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/3fe1e163-4ca3-4766-9a9b-19e149cc385e"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -7073,7 +7213,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc50b215-6e88-4055-b18d-dec3d913aa62")
-		(property "Reference" "R9"
+		(property "Reference" "R7"
 			(at 118.11 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7128,7 +7268,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW0603221KFKEA"
+		(property "P/N" "0603WAF1003T5E"
 			(at 115.57 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -7139,7 +7279,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C2090661"
+		(property "LCSC P/N" "C25803"
 			(at 115.57 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -7151,15 +7291,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "7acd9981-e275-4886-8ccf-13bda854b68c")
+			(uuid "ccef651c-d3c2-4666-8261-5f49548e4122")
 		)
 		(pin "2"
-			(uuid "a6ea6c74-b0f1-45f9-a7bc-ca40bc678fc4")
+			(uuid "655f4ea5-d5c2-461e-94c5-36a9ea8f1ff4")
 		)
 		(instances
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/19de6bb4-fd37-45ed-ab7a-91a6842df4d8"
-					(reference "R9")
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/3fe1e163-4ca3-4766-9a9b-19e149cc385e"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -7176,7 +7322,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f07653c5-8d88-4702-88df-582da9d44e81")
-		(property "Reference" "R11"
+		(property "Reference" "R9"
 			(at 137.16 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7229,7 +7375,7 @@
 				)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEI"
+		(property "P/N" "0603WAF1003T5E"
 			(at 134.62 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -7240,7 +7386,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" "C25804"
+		(property "LCSC P/N" "C25803"
 			(at 134.62 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -7252,15 +7398,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "6b4813d0-2d2b-4efa-b682-7bd60eb553fe")
+			(uuid "7d892152-2c56-4e2f-aad8-429b29350013")
 		)
 		(pin "2"
-			(uuid "ce1b1a23-d08b-4a2c-8395-a87740d4a776")
+			(uuid "8cba3b5c-5512-49ed-86a4-c4a373a10dcb")
 		)
 		(instances
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
+					(reference "R7")
+					(unit 1)
+				)
+			)
 			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/19de6bb4-fd37-45ed-ab7a-91a6842df4d8"
-					(reference "R11")
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/3fe1e163-4ca3-4766-9a9b-19e149cc385e"
+					(reference "R9")
 					(unit 1)
 				)
 			)

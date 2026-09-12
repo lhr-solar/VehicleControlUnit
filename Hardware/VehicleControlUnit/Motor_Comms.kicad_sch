@@ -36622,7 +36622,7 @@
 		(uuid "08890f25-b4d9-44f6-a1c9-81f443fb5e50")
 	)
 	(hierarchical_label "GND_ISO"
-		(shape input)
+		(shape bidirectional)
 		(at 84.836 92.964 0)
 		(effects
 			(font
@@ -36666,7 +36666,7 @@
 		(uuid "20a9f06a-5ee0-4598-b444-12b55da48e59")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape bidirectional)
 		(at 40.64 163.83 180)
 		(effects
 			(font
@@ -36710,7 +36710,7 @@
 		(uuid "38a5e907-2449-46d0-bff1-36f12c32cc62")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape bidirectional)
 		(at 104.14 100.33 180)
 		(effects
 			(font
@@ -36721,7 +36721,7 @@
 		(uuid "3e5762d3-49f8-4665-beba-2e2806e8503c")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape bidirectional)
 		(at 44.45 92.71 180)
 		(effects
 			(font
@@ -36732,7 +36732,7 @@
 		(uuid "449c080c-d5ca-426c-83ff-8abe596d8f11")
 	)
 	(hierarchical_label "GND_ISO"
-		(shape input)
+		(shape bidirectional)
 		(at 90.17 109.22 0)
 		(effects
 			(font
@@ -36776,7 +36776,7 @@
 		(uuid "537a63ea-01d2-4309-b2a7-e201a356badf")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape bidirectional)
 		(at 36.83 34.29 180)
 		(effects
 			(font
@@ -36787,7 +36787,7 @@
 		(uuid "54ab338c-ccaa-464d-a328-c2400b291052")
 	)
 	(hierarchical_label "GND_ISO"
-		(shape input)
+		(shape bidirectional)
 		(at 73.152 34.29 0)
 		(effects
 			(font
@@ -36820,7 +36820,7 @@
 		(uuid "5be80c07-cbb9-4b22-8b2b-81f8bd6efd46")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape bidirectional)
 		(at 152.4 87.63 0)
 		(effects
 			(font
@@ -36831,7 +36831,7 @@
 		(uuid "5d4856bc-6fb0-4593-90c4-0aefdc116341")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape bidirectional)
 		(at 36.83 49.53 180)
 		(effects
 			(font
@@ -36842,7 +36842,7 @@
 		(uuid "65e19994-d507-4a1d-a23c-c608689435fc")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape bidirectional)
 		(at 111.76 171.45 180)
 		(effects
 			(font
@@ -36875,7 +36875,7 @@
 		(uuid "7589ad47-c406-4194-8fd4-24b58feb1e48")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape bidirectional)
 		(at 106.68 46.99 180)
 		(effects
 			(font
@@ -36886,7 +36886,7 @@
 		(uuid "7b57d2a1-78dd-49d3-b989-f4f08cbb3e4f")
 	)
 	(hierarchical_label "GND_ISO"
-		(shape input)
+		(shape bidirectional)
 		(at 212.344 113.03 0)
 		(effects
 			(font
@@ -36908,7 +36908,7 @@
 		(uuid "84c4d5da-b7b5-4457-b86f-931105e201c9")
 	)
 	(hierarchical_label "GND_ISO"
-		(shape input)
+		(shape bidirectional)
 		(at 76.2 48.26 0)
 		(effects
 			(font
@@ -36963,7 +36963,7 @@
 		(uuid "9938f229-6c76-41b1-a971-702f6f75cb7b")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape bidirectional)
 		(at 40.64 148.59 180)
 		(effects
 			(font
@@ -36985,7 +36985,7 @@
 		(uuid "ab98789f-0d85-4b7c-a99e-d479e9b52a6f")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape bidirectional)
 		(at 245.11 116.84 180)
 		(effects
 			(font
@@ -37062,7 +37062,7 @@
 		(uuid "ca1b2eff-3ad2-4386-adad-2415d7efc769")
 	)
 	(hierarchical_label "GND_ISO"
-		(shape input)
+		(shape bidirectional)
 		(at 80.772 147.32 0)
 		(effects
 			(font
@@ -37084,7 +37084,7 @@
 		(uuid "d4db3484-a850-4af3-9c32-8b0ab3e93b30")
 	)
 	(hierarchical_label "GND_ISO"
-		(shape input)
+		(shape bidirectional)
 		(at 85.09 163.83 0)
 		(effects
 			(font
@@ -37095,7 +37095,7 @@
 		(uuid "d59b838d-2682-4fcf-8619-e61c5a8f5ea1")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape bidirectional)
 		(at 111.76 144.78 180)
 		(effects
 			(font
@@ -37117,7 +37117,7 @@
 		(uuid "db6b6497-b599-4a29-9d94-3ab13a4c2ce5")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape bidirectional)
 		(at 45.72 109.22 180)
 		(effects
 			(font
@@ -37139,7 +37139,7 @@
 		(uuid "dfb6b7f3-d8d3-43c8-be89-3b0a668f9c88")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape bidirectional)
 		(at 196.596 114.3 180)
 		(effects
 			(font
@@ -37194,7 +37194,7 @@
 		(uuid "ebaa2fff-8a72-476f-b250-a182444a2475")
 	)
 	(hierarchical_label "GND_ISO"
-		(shape input)
+		(shape bidirectional)
 		(at 72.39 63.5 0)
 		(effects
 			(font
@@ -37205,7 +37205,7 @@
 		(uuid "eebcc178-62a1-47fc-9ad7-3e388396267b")
 	)
 	(hierarchical_label "GND_ISO"
-		(shape input)
+		(shape bidirectional)
 		(at 158.75 46.99 0)
 		(effects
 			(font
@@ -37227,7 +37227,7 @@
 		(uuid "f33ec5d1-7296-4748-9d3e-7f2a990293c7")
 	)
 	(hierarchical_label "GND_ISO"
-		(shape input)
+		(shape bidirectional)
 		(at 138.43 114.808 180)
 		(effects
 			(font
@@ -37260,7 +37260,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "0397bbf8-b2b6-41c0-86fe-bd081f07b09c")
-		(property "Reference" "C37"
+		(property "Reference" "C43"
 			(at 142.24 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37282,7 +37282,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 137.16 52.3748 0)
 			(hide yes)
 			(show_name no)
@@ -37324,7 +37324,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "C37")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -37341,7 +37341,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "059fa864-d784-4c27-9ae7-5526c4aeb59d")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 143.51 115.062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37363,7 +37363,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MCP4822T-E_SN:MCP4822T-E_SN"
 			(at 161.29 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -37423,7 +37423,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -37441,7 +37441,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "1ccb49e7-9b38-41ee-bac6-b85e73dae5e5")
-		(property "Reference" "C36"
+		(property "Reference" "C42"
 			(at 142.24 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37463,7 +37463,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 137.16 29.5148 0)
 			(hide yes)
 			(show_name no)
@@ -37505,7 +37505,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "C36")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -37522,7 +37522,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "27ca52fe-3a1e-4e58-92f2-3fe513462951")
-		(property "Reference" "C34"
+		(property "Reference" "C40"
 			(at 69.342 65.024 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37542,7 +37542,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 69.85 62.5348 0)
 			(hide yes)
 			(show_name no)
@@ -37584,7 +37584,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "C34")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -37601,7 +37601,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29578b34-a96c-4280-aba7-d5fcd87127cf")
-		(property "Reference" "C39"
+		(property "Reference" "C45"
 			(at 149.352 89.154 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37621,7 +37621,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 142.24 88.5952 0)
 			(hide yes)
 			(show_name no)
@@ -37663,7 +37663,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "C39")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -37700,7 +37700,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RM-3.33.3S:CONV_RM-3.33.3S"
+		(property "Footprint" "RM-3.33.3SHP:RM-3.33.3SHP"
 			(at 140.97 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -37900,7 +37900,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41828390-9eb4-4e81-b64d-fe31beafd84e")
-		(property "Reference" "R45"
+		(property "Reference" "R46"
 			(at 85.09 104.394 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37920,7 +37920,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 85.09 108.458 90)
 			(hide yes)
 			(show_name no)
@@ -37962,7 +37962,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R45")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -37979,7 +37979,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59f1a92e-fcd2-4896-8562-d88a9086017b")
-		(property "Reference" "R47"
+		(property "Reference" "R48"
 			(at 123.444 173.736 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37999,7 +37999,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 123.19 173.228 90)
 			(hide yes)
 			(show_name no)
@@ -38041,7 +38041,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R47")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -38078,7 +38078,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 115.57 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -38169,7 +38169,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm"
 			(at 54.61 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -38229,7 +38229,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8dd19d0b-3ecc-4825-aa2a-7aa5fd08c691")
-		(property "Reference" "R44"
+		(property "Reference" "R45"
 			(at 80.01 159.004 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38249,7 +38249,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 80.01 163.068 90)
 			(hide yes)
 			(show_name no)
@@ -38291,7 +38291,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R44")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -38309,7 +38309,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9cbb4d3b-f89a-44d7-b2d5-cf412d733ac8")
-		(property "Reference" "C35"
+		(property "Reference" "C41"
 			(at 111.76 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38331,7 +38331,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 112.0648 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -38373,7 +38373,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "C35")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -38413,7 +38413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "IRLML2030TRPBF:IRLML2030TRPBF"
 			(at 138.43 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -38519,7 +38519,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1045176-da77-4894-87cc-c8af763b2401")
-		(property "Reference" "R41"
+		(property "Reference" "R42"
 			(at 43.18 104.394 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38539,7 +38539,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 43.18 108.458 90)
 			(hide yes)
 			(show_name no)
@@ -38581,7 +38581,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R41")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -38618,7 +38618,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 115.57 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -38699,7 +38699,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa1caeda-52c0-478a-875d-91136689fb01")
-		(property "Reference" "R46"
+		(property "Reference" "R47"
 			(at 123.444 147.066 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38719,7 +38719,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 123.19 146.558 90)
 			(hide yes)
 			(show_name no)
@@ -38761,7 +38761,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R46")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -38778,7 +38778,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "abc18006-f8e1-40cb-9d1f-4e81fa48d564")
-		(property "Reference" "C38"
+		(property "Reference" "C44"
 			(at 142.748 81.026 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38798,7 +38798,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 142.24 83.5152 0)
 			(hide yes)
 			(show_name no)
@@ -38840,7 +38840,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "C38")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -38880,7 +38880,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "IRLML2030TRPBF:IRLML2030TRPBF"
 			(at 138.43 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -39007,7 +39007,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P1030X265-16N"
+		(property "Footprint" "ISO7741DWR:ISO7741DWR"
 			(at 76.2 186.36 0)
 			(hide yes)
 			(show_name no)
@@ -39170,7 +39170,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb22863e-c6be-44c3-b663-5af0549acbe6")
-		(property "Reference" "R49"
+		(property "Reference" "R50"
 			(at 248.666 114.554 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39190,7 +39190,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 248.92 115.062 90)
 			(hide yes)
 			(show_name no)
@@ -39232,7 +39232,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R49")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -39249,7 +39249,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1ac1e95-227c-456f-a677-b7a7cb9d747f")
-		(property "Reference" "R40"
+		(property "Reference" "R41"
 			(at 38.1 159.004 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39269,7 +39269,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 38.1 163.068 90)
 			(hide yes)
 			(show_name no)
@@ -39311,7 +39311,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R40")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -39329,7 +39329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2dadd8f-4dd1-47ed-b1be-28fd1a3103e5")
-		(property "Reference" "J10"
+		(property "Reference" "J11"
 			(at 202.946 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39451,7 +39451,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "J10")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -39489,7 +39489,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "10uH_inducto:WE-MAIA_2512"
 			(at 118.11 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -39569,7 +39569,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm"
 			(at 109.22 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -39628,7 +39628,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb3ba144-e6b2-4e78-bafd-334588c426e7")
-		(property "Reference" "R42"
+		(property "Reference" "R43"
 			(at 45.974 56.134 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39648,7 +39648,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 45.72 60.198 90)
 			(hide yes)
 			(show_name no)
@@ -39690,7 +39690,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R42")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -39728,7 +39728,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P1030X265-16N"
+		(property "Footprint" "ISO1042QDWRQ1:ISO1042QDWRQ1"
 			(at 67.31 126.67 0)
 			(hide yes)
 			(show_name no)
@@ -39912,7 +39912,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 119.38 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -39991,7 +39991,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P1030X265-16N"
+		(property "Footprint" "ISO7741DWR:ISO7741DWR"
 			(at 72.39 240.97 0)
 			(hide yes)
 			(show_name no)
@@ -40154,7 +40154,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f059a27b-cff2-4e3e-b3ca-5f935c48d698")
-		(property "Reference" "R43"
+		(property "Reference" "R44"
 			(at 68.834 56.134 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40174,7 +40174,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 68.58 60.198 90)
 			(hide yes)
 			(show_name no)
@@ -40216,7 +40216,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R43")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -40233,7 +40233,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f3f83661-e6b9-439d-bb7f-1c936a695e10")
-		(property "Reference" "R48"
+		(property "Reference" "R49"
 			(at 248.666 104.394 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40253,7 +40253,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 248.92 104.902 90)
 			(hide yes)
 			(show_name no)
@@ -40295,7 +40295,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R48")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -40333,7 +40333,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 109.22 97.79 0)
 			(hide yes)
 			(show_name no)

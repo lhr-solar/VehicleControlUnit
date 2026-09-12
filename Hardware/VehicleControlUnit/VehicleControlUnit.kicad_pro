@@ -28,12 +28,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "pin_to_pin|762000|546100|f3f509c2-d3e6-47a0-8366-eea0c15e95c6|dde996d6-302b-482b-b103-33bed2f0833e|||",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -466,7 +461,7 @@
         "uuid": "e864fac9-3897-46c9-9101-6d5488c6cd3a"
       }
     ],
-    "used_designators": "#PWR1-27,D1-25,R1-63,#FLG1-14,IC1-7,J1-11,C1-51,CR1,Reset1,FB1-2,JP1-5,L1-2,Q1-7,SW1,TP1-33,TP_3.3V1,U1-5,Y1,F1-6,PS1",
+    "used_designators": "#PWR1-27,D1-25,R1-63,#FLG1-14,IC1-7,J1-12,C1-51,CR1,Reset1,FB1-2,JP1-5,L1-2,Q1-7,SW1,TP1-33,TP_3.3V1,U1-5,Y1,F1-6,PS1",
     "variants": []
   },
   "sheets": [
@@ -475,16 +470,20 @@
       "Root"
     ],
     [
-      "dc3ab98d-8813-4545-9e4b-e0fd2f1fb432",
+      "3fe1e163-4ca3-4766-9a9b-19e149cc385e",
+      "PowerProtection"
+    ],
+    [
+      "890fb496-5953-4e5b-b8ad-28917c0a3c13",
       "12VBuck"
     ],
     [
-      "da76194f-59e6-4b82-959b-538a81e9eb86",
-      "LDO"
+      "d4cd4986-72cf-4091-9d22-3ed3db5e35c5",
+      "Power_Mux"
     ],
     [
-      "19de6bb4-fd37-45ed-ab7a-91a6842df4d8",
-      "PowerProtection"
+      "853b16d2-2efa-4055-8a9a-ea208220d84d",
+      "LDO"
     ],
     [
       "252635d1-b56c-4964-8f6e-39efe20521e2",
@@ -513,10 +512,6 @@
     [
       "f16a8bc3-f058-4d27-badd-0afc148d009e",
       "Power Regulation"
-    ],
-    [
-      "59ba047e-cc6c-42e3-939f-b33701d25ed0",
-      "Power_Mux"
     ],
     [
       "c15aadb0-f4ae-46ca-8bcd-83ba5a1e77f0",

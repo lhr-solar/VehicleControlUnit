@@ -5427,7 +5427,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0448618a-daba-41dd-9c63-78e7ec682b33")
-		(property "Reference" "R?"
+		(property "Reference" "R31"
 			(at 119.38 102.108 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5447,7 +5447,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 119.38 105.918 90)
 			(hide yes)
 			(show_name no)
@@ -5489,7 +5489,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f9087b5b-32fd-4bb7-84dd-9fe64614d383"
-					(reference "R?")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -5526,7 +5526,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 110.49 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5607,7 +5607,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "446da009-c4c7-4876-a751-c138d2ccc570")
-		(property "Reference" "R23"
+		(property "Reference" "R24"
 			(at 98.298 22.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5627,7 +5627,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 102.108 22.86 90)
 			(hide yes)
 			(show_name no)
@@ -5669,7 +5669,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f9087b5b-32fd-4bb7-84dd-9fe64614d383"
-					(reference "R23")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -5706,7 +5706,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 110.49 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -5807,7 +5807,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 110.49 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5888,7 +5888,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5dcf2ea1-b1ff-4a75-a4b8-6538525e967d")
-		(property "Reference" "R26"
+		(property "Reference" "R27"
 			(at 119.38 76.708 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5908,7 +5908,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 119.38 80.518 90)
 			(hide yes)
 			(show_name no)
@@ -5950,7 +5950,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f9087b5b-32fd-4bb7-84dd-9fe64614d383"
-					(reference "R26")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -5967,7 +5967,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6770bf9b-d145-4d86-afbd-f8f9e69f70e3")
-		(property "Reference" "R25"
+		(property "Reference" "R26"
 			(at 119.38 70.358 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5987,7 +5987,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 119.38 74.168 90)
 			(hide yes)
 			(show_name no)
@@ -6029,7 +6029,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f9087b5b-32fd-4bb7-84dd-9fe64614d383"
-					(reference "R25")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -6046,7 +6046,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7070ad81-f236-4bc8-9d93-d5b3050e07ac")
-		(property "Reference" "R?"
+		(property "Reference" "R29"
 			(at 119.38 89.408 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6066,7 +6066,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 119.38 93.218 90)
 			(hide yes)
 			(show_name no)
@@ -6108,7 +6108,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f9087b5b-32fd-4bb7-84dd-9fe64614d383"
-					(reference "R?")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -6145,7 +6145,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 110.49 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6226,7 +6226,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "86c54714-9831-45c4-8884-f9e2ea3af7e9")
-		(property "Reference" "R?"
+		(property "Reference" "R30"
 			(at 119.38 95.758 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6246,7 +6246,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 119.38 99.568 90)
 			(hide yes)
 			(show_name no)
@@ -6288,7 +6288,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f9087b5b-32fd-4bb7-84dd-9fe64614d383"
-					(reference "R?")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -6305,7 +6305,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "95229786-e69c-4fc5-82f6-697af6d77022")
-		(property "Reference" "R24"
+		(property "Reference" "R25"
 			(at 119.38 64.008 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6325,7 +6325,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 119.38 67.818 90)
 			(hide yes)
 			(show_name no)
@@ -6367,7 +6367,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f9087b5b-32fd-4bb7-84dd-9fe64614d383"
-					(reference "R24")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -6404,7 +6404,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 110.49 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6505,7 +6505,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 110.49 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -6606,7 +6606,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 110.49 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6687,7 +6687,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf6cb9da-63ae-4a25-a903-edac843055af")
-		(property "Reference" "R?"
+		(property "Reference" "R28"
 			(at 119.38 83.058 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6707,7 +6707,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 119.38 86.868 90)
 			(hide yes)
 			(show_name no)
@@ -6749,7 +6749,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f9087b5b-32fd-4bb7-84dd-9fe64614d383"
-					(reference "R?")
+					(reference "R28")
 					(unit 1)
 				)
 			)

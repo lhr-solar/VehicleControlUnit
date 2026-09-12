@@ -608,121 +608,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "5V Nominal"
 		(exclude_from_sim no)
@@ -782,12 +667,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f416277-aad7-467b-b902-c7899b2bd30e")
-	)
-	(junction
-		(at 142.24 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b007e5eb-cea0-4aa9-aeb3-65e63716a3ec")
 	)
 	(wire
 		(pts
@@ -861,7 +740,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 63.5) (xy 142.24 63.5)
+			(xy 139.7 63.5) (xy 144.78 63.5)
 		)
 		(stroke
 			(width 0)
@@ -898,16 +777,6 @@
 			(type default)
 		)
 		(uuid "dea554fb-5bec-4190-9ed1-37ce61bb7bd1")
-	)
-	(wire
-		(pts
-			(xy 142.24 63.5) (xy 144.78 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df5d0c80-8149-42a0-8910-3aec56017945")
 	)
 	(wire
 		(pts
@@ -1166,7 +1035,7 @@
 		)
 		(column_widths 29.845 10.795 11.43 11.43 8.255)
 		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54)
-		(uuid "ac921eed-c7d9-430b-9d66-5eddb296683b")
+		(uuid "9babaac4-d7ae-4c1e-a3e7-2bb9cc53ee14")
 		(cells
 			(table_cell "Parameters"
 				(exclude_from_sim no)
@@ -2065,7 +1934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b102e1c-01e8-4653-92eb-2045626b696c")
-		(property "Reference" "C6"
+		(property "Reference" "C19"
 			(at 168.275 68.5735 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2143,15 +2012,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "aa3a19f3-d6cb-48a1-817f-464178eb2ba8")
+			(uuid "8982b71e-8e80-4d1a-b7c6-32345734f6a1")
 		)
 		(pin "2"
-			(uuid "4975af56-7499-4213-a47d-c3f9b7f7534e")
+			(uuid "aa1ead18-c899-4600-b544-441f9dedd605")
 		)
 		(instances
+			(project "LDO"
+				(path "/8ff43370-8d10-4d2c-b1a3-81d1c2934a98"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+			(project "LeaderSOMBreakout"
+				(path "/e5b32072-3e3d-42a6-9d41-1a76d538e329/f3053c74-1ac6-4a33-80f3-565e8c4c2c7d"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/da76194f-59e6-4b82-959b-538a81e9eb86"
-					(reference "C6")
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/853b16d2-2efa-4055-8a9a-ea208220d84d"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -2262,11 +2143,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "0da88040-e83d-45f2-b07b-13836ff0176a")
+			(uuid "01c67387-58e5-48ff-81a2-8ef93a58300b")
 		)
 		(instances
+			(project "LDO"
+				(path "/8ff43370-8d10-4d2c-b1a3-81d1c2934a98"
+					(reference "TP_3.3V1")
+					(unit 1)
+				)
+			)
 			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/da76194f-59e6-4b82-959b-538a81e9eb86"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/853b16d2-2efa-4055-8a9a-ea208220d84d"
 					(reference "TP_3.3V1")
 					(unit 1)
 				)
@@ -2285,7 +2172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "766d371a-42b5-499b-b058-ab8f85cbe506")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 152.4 56.515 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2383,18 +2270,24 @@
 			)
 		)
 		(pin "2"
-			(uuid "d21fa447-cad4-4642-b77e-cd610744a329")
+			(uuid "3fcec839-284c-4ea8-a79f-01c06ecb6999")
 		)
 		(pin "1"
-			(uuid "d96f221a-4d76-401e-93fe-dbcbde3f8d8d")
+			(uuid "995de51d-9d43-4d1a-b9fe-0b2a61d94583")
 		)
 		(pin "3"
-			(uuid "caf8502f-db53-4fff-b51b-50bcf0696851")
+			(uuid "957fe355-65e9-43a7-85ca-76966301f183")
 		)
 		(instances
+			(project ""
+				(path "/8ff43370-8d10-4d2c-b1a3-81d1c2934a98"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/da76194f-59e6-4b82-959b-538a81e9eb86"
-					(reference "U2")
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/853b16d2-2efa-4055-8a9a-ea208220d84d"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -2412,7 +2305,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adbd74cf-e28f-4fcb-b636-d956609f6a8d")
-		(property "Reference" "D1"
+		(property "Reference" "D3"
 			(at 133.604 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2510,94 +2403,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "8d6aaf4f-4981-4106-b5ed-1cc30483185c")
+			(uuid "07949f2e-a083-4273-9382-0b69eba2a8a9")
 		)
 		(pin "2"
-			(uuid "6983ffb6-29d6-4de9-ad66-292c64904735")
+			(uuid "92239788-8b6a-4474-afbc-db272288e943")
 		)
 		(instances
-			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/da76194f-59e6-4b82-959b-538a81e9eb86"
+			(project ""
+				(path "/8ff43370-8d10-4d2c-b1a3-81d1c2934a98"
 					(reference "D1")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 142.24 63.5 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4f2214a-2ce0-46ee-8112-eb186d99027f")
-		(property "Reference" "#FLG08"
-			(at 142.24 65.405 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 142.24 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 142.24 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f871df16-ace5-4b61-ab07-4ebfcf7a6352")
-		)
-		(instances
 			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/da76194f-59e6-4b82-959b-538a81e9eb86"
-					(reference "#FLG08")
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/853b16d2-2efa-4055-8a9a-ea208220d84d"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -2615,7 +2435,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f96e3358-3125-41a4-8f93-006fa6c5f6b9")
-		(property "Reference" "C5"
+		(property "Reference" "C18"
 			(at 142.875 68.5735 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2693,15 +2513,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "6572647a-4c6b-4bdb-ab02-f8bd60b8c0f6")
+			(uuid "3c088605-de17-491b-a92c-48312011ee9b")
 		)
 		(pin "2"
-			(uuid "05ae3e8f-f622-400e-b977-7029ff84b724")
+			(uuid "7a07c67e-64ee-4191-918c-55b9b7230005")
 		)
 		(instances
+			(project "LDO"
+				(path "/8ff43370-8d10-4d2c-b1a3-81d1c2934a98"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/e5b32072-3e3d-42a6-9d41-1a76d538e329/f3053c74-1ac6-4a33-80f3-565e8c4c2c7d"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/da76194f-59e6-4b82-959b-538a81e9eb86"
-					(reference "C5")
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/853b16d2-2efa-4055-8a9a-ea208220d84d"
+					(reference "C18")
 					(unit 1)
 				)
 			)

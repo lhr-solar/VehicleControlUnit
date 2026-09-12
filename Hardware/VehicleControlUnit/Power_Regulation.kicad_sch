@@ -5,6 +5,158 @@
 	(uuid "e65b4f28-b6d2-43f3-957f-ca4d176a2af2")
 	(paper "A5")
 	(lib_symbols
+		(symbol "Device:Fuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -523,12 +675,6 @@
 		(uuid "043df036-110c-4140-a71f-9ee2de167d63")
 	)
 	(junction
-		(at 104.14 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1861777a-f30a-411b-aae0-eb77cba50b4c")
-	)
-	(junction
 		(at 104.14 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -557,6 +703,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f145fd77-4459-4ea3-be97-a2b1b5dc4760")
+	)
+	(junction
+		(at 104.14 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3fbb889-96be-4adf-8c5d-22ba92cf4e88")
 	)
 	(wire
 		(pts
@@ -597,16 +749,6 @@
 			(type default)
 		)
 		(uuid "2a0208ef-d919-415e-bff7-58f5145db725")
-	)
-	(wire
-		(pts
-			(xy 104.14 73.66) (xy 104.14 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b7cc367-ff1b-477b-940c-ed8972c9815d")
 	)
 	(wire
 		(pts
@@ -770,16 +912,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 80.01) (xy 106.68 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5aae454-a08c-4837-905b-f41577f00a96")
-	)
-	(wire
-		(pts
 			(xy 72.39 52.07) (xy 73.66 52.07)
 		)
 		(stroke
@@ -797,6 +929,16 @@
 			(type default)
 		)
 		(uuid "dbde14e4-2197-4b73-88d6-0359a931938c")
+	)
+	(wire
+		(pts
+			(xy 104.14 73.66) (xy 104.14 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df286ea1-aa84-42cb-a08f-27cab39eab99")
 	)
 	(wire
 		(pts
@@ -827,6 +969,26 @@
 			(type default)
 		)
 		(uuid "e708f110-3364-41f4-a559-150d5f53687d")
+	)
+	(wire
+		(pts
+			(xy 105.41 80.01) (xy 106.68 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9dc535e-24f5-435e-8f7e-ac92bf0032ee")
+	)
+	(wire
+		(pts
+			(xy 104.14 78.74) (xy 105.41 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2fad256-3a72-4335-b139-1f1cf9578b21")
 	)
 	(wire
 		(pts
@@ -1048,7 +1210,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "236682ac-988b-49eb-a690-ff94a1d6e201")
-		(property "Reference" "R50"
+		(property "Reference" "R51"
 			(at 60.96 62.992 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1068,7 +1230,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 60.96 59.182 90)
 			(hide yes)
 			(show_name no)
@@ -1110,7 +1272,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e"
-					(reference "R50")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -1148,7 +1310,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 52.07 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -1219,7 +1381,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Polyfuse")
+		(lib_id "Device:Fuse")
 		(at 39.37 52.07 90)
 		(unit 1)
 		(body_style 1)
@@ -1228,9 +1390,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "905c0e6a-81e0-48e9-abe6-a2b856758823")
+		(uuid "6502af2e-b022-49fb-9c2d-1c30a4e86ab6")
 		(property "Reference" "F3"
-			(at 39.37 54.864 90)
+			(at 39.37 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1239,7 +1401,7 @@
 				)
 			)
 		)
-		(property "Value" "Polyfuse"
+		(property "Value" "Fuse"
 			(at 39.37 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1250,7 +1412,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 50.8 0)
+			(at 39.37 53.848 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1258,7 +1420,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Datasheet" ""
@@ -1272,7 +1433,7 @@
 				)
 			)
 		)
-		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+		(property "Description" "Fuse"
 			(at 39.37 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -1283,11 +1444,11 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "1dc8b566-488b-49ce-998c-20c35e3d1fa9")
-		)
 		(pin "1"
-			(uuid "2c7f6e52-442f-437c-b0d0-7f0bf36a0263")
+			(uuid "2df0ff7b-010c-4623-9b40-38c551067337")
+		)
+		(pin "2"
+			(uuid "1e1f4a4c-0147-4eef-b5fd-15d6bf97aa05")
 		)
 		(instances
 			(project "VehicleControlUnit"
@@ -1309,7 +1470,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f65c157b-e621-436a-8c44-d5e8b16ae99a")
-		(property "Reference" "R52"
+		(property "Reference" "R53"
 			(at 101.6 68.834 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1331,7 +1492,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 102.362 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -1373,7 +1534,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e"
-					(reference "R52")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -1390,7 +1551,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fffc69e2-0bc5-45f1-b3ad-f6fd0fb3091c")
-		(property "Reference" "R51"
+		(property "Reference" "R52"
 			(at 101.854 61.976 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1412,7 +1573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 102.362 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -1454,7 +1615,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e"
-					(reference "R51")
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -1475,7 +1636,7 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "19de6bb4-fd37-45ed-ab7a-91a6842df4d8")
+		(uuid "3fe1e163-4ca3-4766-9a9b-19e149cc385e")
 		(property "Sheetname" "PowerProtection"
 			(at 55.88 50.0884 0)
 			(show_name no)
@@ -1488,7 +1649,7 @@
 			)
 		)
 		(property "Sheetfile" "PowerProtection.kicad_sch"
-			(at 55.88 59.7666 0)
+			(at 55.88 59.0046 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1501,7 +1662,7 @@
 		)
 		(pin "GND" input
 			(at 55.88 57.15 180)
-			(uuid "e093c4f8-09ce-49b3-8c7e-b5012ab1ae40")
+			(uuid "9a91edd5-d525-40f2-a144-e66b0ffd31b9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1511,7 +1672,7 @@
 		)
 		(pin "Vin" input
 			(at 55.88 52.07 180)
-			(uuid "af7216eb-53d8-4281-829c-3971a12ae095")
+			(uuid "96dae887-c4cc-43e6-8596-1d9d512e2185")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1521,7 +1682,7 @@
 		)
 		(pin "Vout" output
 			(at 72.39 52.07 0)
-			(uuid "ae7829b5-336a-46fd-86a8-90c91e738d2c")
+			(uuid "233a9947-bfe4-4090-adc1-f7c0e40e48b2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1532,104 +1693,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 107.95 49.53)
-		(size 20.32 26.67)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "59ba047e-cc6c-42e3-939f-b33701d25ed0")
-		(property "Sheetname" "Power_Mux"
-			(at 107.95 48.8184 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Power_Mux.kicad_sch"
-			(at 107.95 77.5466 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "MUX_OUT" output
-			(at 128.27 52.07 0)
-			(uuid "956cb414-bae9-4696-87f5-0af56919cb1a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MX_GND" input
-			(at 107.95 73.66 180)
-			(uuid "2c47d101-1791-4d1e-aedc-11615abb77cf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PR1" input
-			(at 107.95 64.77 180)
-			(uuid "8ceb252a-9082-4580-b80a-95cb97e3e00e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VIN_1" input
-			(at 107.95 52.07 180)
-			(uuid "05da893b-b620-405f-8d87-fa78456b08df")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VIN_2" input
-			(at 107.95 55.88 180)
-			(uuid "69b6cce3-ad1f-49c6-b711-091fa9426584")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e"
-					(page "14")
+					(page "2")
 				)
 			)
 		)
@@ -1649,7 +1713,7 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "da76194f-59e6-4b82-959b-538a81e9eb86")
+		(uuid "853b16d2-2efa-4055-8a9a-ea208220d84d")
 		(property "Sheetname" "LDO"
 			(at 130.81 48.8184 0)
 			(show_name no)
@@ -1662,7 +1726,7 @@
 			)
 		)
 		(property "Sheetfile" "LDO.kicad_sch"
-			(at 130.81 58.4966 0)
+			(at 130.81 57.7346 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1675,7 +1739,7 @@
 		)
 		(pin "GND" input
 			(at 143.51 55.88 0)
-			(uuid "f1676f5b-25f1-4a50-a583-6c6f5972a6b6")
+			(uuid "7737aab3-f62f-438d-aeb2-08448423c4cb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1685,7 +1749,7 @@
 		)
 		(pin "Vin" input
 			(at 130.81 52.07 180)
-			(uuid "15681bac-bbd8-4a14-81ef-839cecee0b49")
+			(uuid "710c3616-274e-4fd7-a5ba-06e3db982ddd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1695,7 +1759,7 @@
 		)
 		(pin "Vout" output
 			(at 143.51 50.8 0)
-			(uuid "5b89d8a3-6ea4-4f4f-8a79-665a35528ce3")
+			(uuid "da8c45d3-77c8-48eb-af86-5842b1f1e34a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1706,7 +1770,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e"
-					(page "4")
+					(page "5")
 				)
 			)
 		)
@@ -1726,7 +1790,7 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "dc3ab98d-8813-4545-9e4b-e0fd2f1fb432")
+		(uuid "890fb496-5953-4e5b-b8ad-28917c0a3c13")
 		(property "Sheetname" "12VBuck"
 			(at 74.93 50.0884 0)
 			(show_name no)
@@ -1739,7 +1803,7 @@
 			)
 		)
 		(property "Sheetfile" "12VBuck.kicad_sch"
-			(at 74.93 59.7666 0)
+			(at 74.93 59.0046 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1752,7 +1816,7 @@
 		)
 		(pin "GND" bidirectional
 			(at 82.55 58.42 270)
-			(uuid "5290ce47-063e-4b37-bcfd-db98d29b2c08")
+			(uuid "eadbc7d6-69a3-4cd3-b454-b565d90d780a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1762,7 +1826,7 @@
 		)
 		(pin "V_in" input
 			(at 74.93 52.07 180)
-			(uuid "9831574d-61b2-4321-8e85-7908e26b58a2")
+			(uuid "dac7076b-21db-4b82-8fd8-d3983a1216b5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1772,7 +1836,7 @@
 		)
 		(pin "V_out" output
 			(at 90.17 52.07 0)
-			(uuid "9b387ad9-12d9-4120-8848-bba0c4f5fad9")
+			(uuid "1fed86dd-d110-4318-a68a-10c8d51b959b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1783,7 +1847,104 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e"
-					(page "2")
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 107.95 49.53)
+		(size 20.32 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d4cd4986-72cf-4091-9d22-3ed3db5e35c5")
+		(property "Sheetname" "Power_Mux"
+			(at 107.95 48.8184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Mux.kicad_sch"
+			(at 107.95 76.7846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MUX_OUT" output
+			(at 128.27 52.07 0)
+			(uuid "83f8b9c5-a5a1-4000-b74c-b0602ab4280a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MX_GND" input
+			(at 107.95 73.66 180)
+			(uuid "ba7f82a2-ecd5-4687-923f-4a2ec92963a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PR1" input
+			(at 107.95 64.77 180)
+			(uuid "e9bb154a-6344-4f99-aa4d-1064e5a17c30")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN_1" input
+			(at 107.95 52.07 180)
+			(uuid "b461dbc8-420a-4e96-84ff-1f238c648b57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN_2" input
+			(at 107.95 55.88 180)
+			(uuid "36110df4-6469-4cd2-a5a5-f660451bdddc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "VehicleControlUnit"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e"
+					(page "4")
 				)
 			)
 		)

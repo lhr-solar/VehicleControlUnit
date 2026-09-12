@@ -384,6 +384,161 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -1091,22 +1246,34 @@
 		(uuid "7de76e07-37b0-4744-8a4c-5094a71e6ce3")
 	)
 	(junction
+		(at 179.07 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7dec2e2d-cb03-4375-a769-ce2fbcbdb8d2")
+	)
+	(junction
+		(at 179.07 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a10e768c-3109-495d-bcd0-fc3ad78e7691")
+	)
+	(junction
 		(at 88.9 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b09fac67-a291-4768-bda8-b92233f48874")
 	)
 	(junction
-		(at 181.61 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e477ab53-f8b4-4ec3-a4cd-8dce5ddc4630")
-	)
-	(junction
 		(at 153.67 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed5fb7f4-339a-4a6c-9a2d-d6a3a419713a")
+	)
+	(junction
+		(at 179.07 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa87d3a7-9c97-4bbb-8ab3-ef383c867cf2")
 	)
 	(wire
 		(pts
@@ -1120,16 +1287,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 86.36) (xy 187.96 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "056d1511-4e83-4d6b-9ddd-e2c8a46af041")
-	)
-	(wire
-		(pts
 			(xy 224.79 88.9) (xy 224.79 90.17)
 		)
 		(stroke
@@ -1137,6 +1294,16 @@
 			(type default)
 		)
 		(uuid "1bbb5549-b0f3-4042-a3d4-8f4cdb90784e")
+	)
+	(wire
+		(pts
+			(xy 179.07 99.06) (xy 186.69 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22a116f0-afe2-451f-bc70-88c89339ae23")
 	)
 	(wire
 		(pts
@@ -1200,6 +1367,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 91.44) (xy 179.07 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54af2cc6-7798-40d5-9d2e-5b9856b2d5b2")
+	)
+	(wire
+		(pts
 			(xy 93.98 81.28) (xy 93.98 83.82)
 		)
 		(stroke
@@ -1207,6 +1384,26 @@
 			(type default)
 		)
 		(uuid "5707fb9f-f988-47e1-b4be-2ec6623ba639")
+	)
+	(wire
+		(pts
+			(xy 170.18 99.06) (xy 179.07 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60306991-e247-4fe8-9118-f6872e311921")
+	)
+	(wire
+		(pts
+			(xy 179.07 91.44) (xy 186.69 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "617245ea-dad1-45ea-b898-e196953e8de2")
 	)
 	(wire
 		(pts
@@ -1230,26 +1427,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 86.36) (xy 181.61 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "852e8d09-5fe0-4473-8215-dd3aee2f8408")
-	)
-	(wire
-		(pts
-			(xy 181.61 92.71) (xy 181.61 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89b1d8a5-d575-44de-a754-84d5518102ed")
-	)
-	(wire
-		(pts
 			(xy 93.98 81.28) (xy 102.87 81.28)
 		)
 		(stroke
@@ -1270,6 +1447,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 86.36) (xy 187.96 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d01b0ce-5544-4fe6-bab5-82ed08a8aa5b")
+	)
+	(wire
+		(pts
 			(xy 102.87 81.28) (xy 102.87 86.36)
 		)
 		(stroke
@@ -1287,6 +1474,16 @@
 			(type default)
 		)
 		(uuid "97e56e2c-5367-44b6-8d6f-6ee54bc9be5b")
+	)
+	(wire
+		(pts
+			(xy 179.07 99.06) (xy 179.07 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bf330de-01e1-409e-844c-ccf0e2edf45c")
 	)
 	(wire
 		(pts
@@ -1370,6 +1567,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 86.36) (xy 179.07 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb057f59-2b96-4a19-acea-e6260e7e6f5c")
+	)
+	(wire
+		(pts
 			(xy 105.41 81.28) (xy 114.3 81.28)
 		)
 		(stroke
@@ -1400,7 +1607,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 86.36) (xy 181.61 86.36)
+			(xy 163.83 86.36) (xy 179.07 86.36)
 		)
 		(stroke
 			(width 0)
@@ -7710,7 +7917,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 181.61 95.25 180)
+		(at 179.07 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7797,7 +8004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28b1f39e-9c15-4348-af46-f76ae259a754")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG06"
 			(at 149.86 79.375 0)
 			(hide yes)
 			(show_name no)
@@ -7853,12 +8060,36 @@
 			)
 		)
 		(pin "1"
-			(uuid "298e9527-e8e9-4115-a632-9268c6fa4d8b")
+			(uuid "280f94ac-7e10-4543-95ae-23cecaffdc5d")
 		)
 		(instances
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/331f457b-ed4e-4d4a-ad6d-c8acb2febfed/9243f342-8d42-4433-b049-031be1288812"
+					(reference "#FLG013")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
+					(reference "#FLG07")
+					(unit 1)
+				)
+			)
 			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/dc3ab98d-8813-4545-9e4b-e0fd2f1fb432"
-					(reference "#FLG05")
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/890fb496-5953-4e5b-b8ad-28917c0a3c13"
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -7876,7 +8107,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ae97d19-6cde-4171-85fa-660ede195ee5")
-		(property "Reference" "C1"
+		(property "Reference" "C8"
 			(at 96.52 85.0962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7931,7 +8162,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" ""
+		(property "LCSC P/N" "C6962403"
 			(at 93.98 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -7942,7 +8173,7 @@
 				)
 			)
 		)
-		(property "P/N" "MSASL168SB5475KTNA01"
+		(property "P/N" "08055D475KAT4A"
 			(at 93.98 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -7954,14 +8185,38 @@
 			)
 		)
 		(pin "1"
-			(uuid "f62d8697-bc17-4e11-b6a4-e368eef07be7")
+			(uuid "5f8c829e-0d94-4597-b6d1-11f962781726")
 		)
 		(pin "2"
-			(uuid "c7202a59-933b-4807-85bf-0063e43641e1")
+			(uuid "093f271d-939d-4ed8-8c31-8e39c7376cc0")
 		)
 		(instances
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/331f457b-ed4e-4d4a-ad6d-c8acb2febfed/9243f342-8d42-4433-b049-031be1288812"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
+					(reference "C8")
+					(unit 1)
+				)
+			)
 			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/dc3ab98d-8813-4545-9e4b-e0fd2f1fb432"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/890fb496-5953-4e5b-b8ad-28917c0a3c13"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
 					(reference "C1")
 					(unit 1)
 				)
@@ -8036,12 +8291,30 @@
 			)
 		)
 		(pin "1"
-			(uuid "89e05898-927b-4b48-bb9a-458704230a01")
+			(uuid "4e82978e-83a1-4dc4-83fe-a2c7ca9d19e1")
 		)
 		(instances
-			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/dc3ab98d-8813-4545-9e4b-e0fd2f1fb432"
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+			(project "PowerPath"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+			(project "VehicleControlUnit"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/890fb496-5953-4e5b-b8ad-28917c0a3c13"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
+					(reference "TP?")
 					(unit 1)
 				)
 			)
@@ -8078,7 +8351,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LHRS_Passives:SRN8040-150M"
+		(property "Footprint" "LHRS_Passives:74439369082"
 			(at 161.29 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -8134,14 +8407,38 @@
 			)
 		)
 		(pin "1"
-			(uuid "a345d10c-9552-44b1-8429-eeefbb7eb2b9")
+			(uuid "c7e9a79e-6fc0-45e0-b61d-be193396dd81")
 		)
 		(pin "2"
-			(uuid "4005e092-bcc0-4f3f-979a-96260266da18")
+			(uuid "7159255e-ddbf-4f55-a45d-bde4cdde1f80")
 		)
 		(instances
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/331f457b-ed4e-4d4a-ad6d-c8acb2febfed/9243f342-8d42-4433-b049-031be1288812"
+					(reference "L3")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
+					(reference "L1")
+					(unit 1)
+				)
+			)
 			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/dc3ab98d-8813-4545-9e4b-e0fd2f1fb432"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/890fb496-5953-4e5b-b8ad-28917c0a3c13"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
 					(reference "L1")
 					(unit 1)
 				)
@@ -8216,12 +8513,30 @@
 			)
 		)
 		(pin "1"
-			(uuid "51b4ccb7-7fe5-46d7-9f4e-bbea612965a5")
+			(uuid "5956835d-5617-45da-b31a-d5e254951259")
 		)
 		(instances
-			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/dc3ab98d-8813-4545-9e4b-e0fd2f1fb432"
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+			(project "PowerPath"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+			(project "VehicleControlUnit"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/890fb496-5953-4e5b-b8ad-28917c0a3c13"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
+					(reference "TP?")
 					(unit 1)
 				)
 			)
@@ -8295,12 +8610,30 @@
 			)
 		)
 		(pin "1"
-			(uuid "b7f81088-7d28-4ed3-ac3e-56ba7473452f")
+			(uuid "a006d4d4-efae-4242-85e9-160f276d1862")
 		)
 		(instances
-			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/dc3ab98d-8813-4545-9e4b-e0fd2f1fb432"
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+			(project "PowerPath"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+			(project "VehicleControlUnit"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/890fb496-5953-4e5b-b8ad-28917c0a3c13"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
+					(reference "TP?")
 					(unit 1)
 				)
 			)
@@ -8396,26 +8729,50 @@
 			)
 		)
 		(pin "2"
-			(uuid "5440cda4-880d-4cb0-9e16-c1b82fe508ba")
+			(uuid "54b3d147-34e3-499f-8513-e501f255a5f8")
 		)
 		(pin "6"
-			(uuid "46e6a802-1e80-475e-be79-996e74becdd4")
+			(uuid "5aff17de-ff5d-4b2e-b4c6-9a197d5404d7")
 		)
 		(pin "5"
-			(uuid "b34b8a46-6733-44ef-8346-d52968cd28c0")
+			(uuid "f41ae057-5d8e-4b66-9d3d-a7885253274e")
 		)
 		(pin "1"
-			(uuid "8f1637fb-032d-41ea-9e96-463eaec7a29c")
+			(uuid "76d019be-f09d-4493-9a7a-83e39546b7ce")
 		)
 		(pin "4"
-			(uuid "1f24b518-f5c1-4795-bf4c-dff7186c7e9e")
+			(uuid "dbd8995d-cf13-44df-b088-983c3cfc0826")
 		)
 		(pin "3"
-			(uuid "9c12213a-0171-4176-a5fb-123c7b8ba94d")
+			(uuid "f74f0936-d7e0-41a3-ba0e-fe7a1046dd1e")
 		)
 		(instances
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/331f457b-ed4e-4d4a-ad6d-c8acb2febfed/9243f342-8d42-4433-b049-031be1288812"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
+					(reference "U3")
+					(unit 1)
+				)
+			)
 			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/dc3ab98d-8813-4545-9e4b-e0fd2f1fb432"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/890fb496-5953-4e5b-b8ad-28917c0a3c13"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
 					(reference "U1")
 					(unit 1)
 				)
@@ -8490,116 +8847,30 @@
 			)
 		)
 		(pin "1"
-			(uuid "2c741bff-243b-43a3-9372-27981848729f")
+			(uuid "fc726904-898e-4cfe-b1bd-516dd3431c3e")
 		)
 		(instances
-			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/dc3ab98d-8813-4545-9e4b-e0fd2f1fb432"
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
 					(reference "TP4")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 181.61 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "71d5d358-1c45-4212-b3f6-acaa63eade88")
-		(property "Reference" "C4"
-			(at 184.15 88.9062 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47u"
-			(at 184.15 91.4462 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 181.61 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
+			(project "PowerPath"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
+					(reference "TP12")
+					(unit 1)
 				)
 			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 181.61 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "P/N" "ZRB18AC80E476ME01L"
-			(at 181.61 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC P/N" ""
-			(at 181.61 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c2dafc3d-32ae-4393-8e5f-d54aabfc4047")
-		)
-		(pin "2"
-			(uuid "6b779220-508f-48d9-9711-3f4a70fd40ef")
-		)
-		(instances
 			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/dc3ab98d-8813-4545-9e4b-e0fd2f1fb432"
-					(reference "C4")
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/890fb496-5953-4e5b-b8ad-28917c0a3c13"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
+					(reference "TP?")
 					(unit 1)
 				)
 			)
@@ -8607,7 +8878,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 181.61 86.36 0)
+		(at 179.07 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8617,8 +8888,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7855cb12-f127-4b25-95f0-afd5dab05ec0")
-		(property "Reference" "#FLG07"
-			(at 181.61 84.455 0)
+		(property "Reference" "#FLG08"
+			(at 179.07 84.455 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8629,7 +8900,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 181.61 81.28 0)
+			(at 179.07 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8639,7 +8910,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 86.36 0)
+			(at 179.07 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8650,7 +8921,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 86.36 0)
+			(at 179.07 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8661,7 +8932,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 181.61 86.36 0)
+			(at 179.07 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8672,12 +8943,36 @@
 			)
 		)
 		(pin "1"
-			(uuid "6355cfa2-4832-4c19-8ad9-8131b44dd13a")
+			(uuid "f1965223-1f6f-41fc-893b-bfbf15ea99c5")
 		)
 		(instances
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/331f457b-ed4e-4d4a-ad6d-c8acb2febfed/9243f342-8d42-4433-b049-031be1288812"
+					(reference "#FLG015")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
+					(reference "#FLG09")
+					(unit 1)
+				)
+			)
 			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/dc3ab98d-8813-4545-9e4b-e0fd2f1fb432"
-					(reference "#FLG07")
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/890fb496-5953-4e5b-b8ad-28917c0a3c13"
+					(reference "#FLG08")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -8695,7 +8990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a00d41b-8759-4c8c-9944-46e0f416cef4")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG05"
 			(at 88.9 79.375 0)
 			(hide yes)
 			(show_name no)
@@ -8750,12 +9045,254 @@
 			)
 		)
 		(pin "1"
-			(uuid "c2e43847-e1b9-480c-b1e7-5bf264667bbe")
+			(uuid "ea558099-2b45-48cd-95d8-d4480a5bc526")
 		)
 		(instances
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/331f457b-ed4e-4d4a-ad6d-c8acb2febfed/9243f342-8d42-4433-b049-031be1288812"
+					(reference "#FLG011")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
 			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/dc3ab98d-8813-4545-9e4b-e0fd2f1fb432"
-					(reference "#FLG04")
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/890fb496-5953-4e5b-b8ad-28917c0a3c13"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 170.18 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "817e4ae9-6788-4cb4-96fd-a664d009c3eb")
+		(property "Reference" "C11"
+			(at 164.084 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 164.084 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 171.1452 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 170.18 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "GMK325BJ226MM-P"
+			(at 170.18 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C778721"
+			(at 170.18 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "05e2161f-3ae6-4990-b02a-48ebc0696571")
+		)
+		(pin "1"
+			(uuid "af76aa0f-1313-4259-a832-63afcf50baac")
+		)
+		(instances
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+			(project "VehicleControlUnit"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/890fb496-5953-4e5b-b8ad-28917c0a3c13"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 186.69 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "83c8aacc-7033-4c5e-a893-15cad2be6288")
+		(property "Reference" "C13"
+			(at 189.992 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3u"
+			(at 189.992 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 187.6552 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 186.69 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "C2012X5R1H335K125AB"
+			(at 186.69 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C342775"
+			(at 186.69 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bc1acade-defa-4e1a-bafa-d5c6874dc37f")
+		)
+		(pin "1"
+			(uuid "62a87d06-0863-4b64-823f-d436b046331c")
+		)
+		(instances
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+			(project "VehicleControlUnit"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/890fb496-5953-4e5b-b8ad-28917c0a3c13"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -8772,7 +9309,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f499efd-8f91-403e-8239-07b7c59cd6ee")
-		(property "Reference" "C3"
+		(property "Reference" "C10"
 			(at 156.718 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8838,7 +9375,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" ""
+		(property "LCSC P/N" "C6666325"
 			(at 153.67 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -8850,15 +9387,39 @@
 			)
 		)
 		(pin "1"
-			(uuid "dc1aaa4e-add2-487b-9245-39431eef88da")
+			(uuid "5836b8ab-fa56-47f1-8634-69b00a25ef78")
 		)
 		(pin "2"
-			(uuid "33e61729-20a9-4e89-922e-adb657af37d0")
+			(uuid "92e85899-2f88-4b56-b952-b5b2a40385f9")
 		)
 		(instances
-			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/dc3ab98d-8813-4545-9e4b-e0fd2f1fb432"
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/331f457b-ed4e-4d4a-ad6d-c8acb2febfed/9243f342-8d42-4433-b049-031be1288812"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+			(project "VehicleControlUnit"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/890fb496-5953-4e5b-b8ad-28917c0a3c13"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -8875,7 +9436,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "986d12fd-760e-47b3-b949-1eff6bbf7e14")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG07"
 			(at 149.86 84.455 0)
 			(hide yes)
 			(show_name no)
@@ -8931,12 +9492,36 @@
 			)
 		)
 		(pin "1"
-			(uuid "ceb92219-ca32-405f-af5e-d102a4e78547")
+			(uuid "43421a8f-a37e-4dfd-9e1c-51b8bf2329d4")
 		)
 		(instances
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/331f457b-ed4e-4d4a-ad6d-c8acb2febfed/9243f342-8d42-4433-b049-031be1288812"
+					(reference "#FLG014")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
+					(reference "#FLG08")
+					(unit 1)
+				)
+			)
 			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/dc3ab98d-8813-4545-9e4b-e0fd2f1fb432"
-					(reference "#FLG06")
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/890fb496-5953-4e5b-b8ad-28917c0a3c13"
+					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -8954,7 +9539,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2a58f5c-5b53-4bfa-af1c-ad84b32d2305")
-		(property "Reference" "R5"
+		(property "Reference" "R11"
 			(at 227.33 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9009,7 +9594,7 @@
 				)
 			)
 		)
-		(property "P/N" "AE1206BR-07100KL"
+		(property "P/N" "CRCW0603100KFKEE"
 			(at 224.79 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -9020,7 +9605,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" ""
+		(property "LCSC P/N" "C25803"
 			(at 224.79 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -9032,15 +9617,39 @@
 			)
 		)
 		(pin "1"
-			(uuid "d4f95c0a-f88a-4324-b6f1-61880f9384af")
+			(uuid "a8411bda-995e-438f-ba05-680f6fba0e23")
 		)
 		(pin "2"
-			(uuid "37111e91-a8a8-4174-b348-b07be395ac05")
+			(uuid "254e1830-33f5-4cd6-8480-1278e4a90c6c")
 		)
 		(instances
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/331f457b-ed4e-4d4a-ad6d-c8acb2febfed/9243f342-8d42-4433-b049-031be1288812"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
+					(reference "R30")
+					(unit 1)
+				)
+			)
 			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/dc3ab98d-8813-4545-9e4b-e0fd2f1fb432"
-					(reference "R5")
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/890fb496-5953-4e5b-b8ad-28917c0a3c13"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -9058,7 +9667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5c64f4f-c674-4d50-80a7-5bee03f8aefe")
-		(property "Reference" "C2"
+		(property "Reference" "C9"
 			(at 105.41 87.6362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9080,7 +9689,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 102.87 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9113,7 +9722,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" ""
+		(property "LCSC P/N" "C6666325"
 			(at 102.87 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9136,15 +9745,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "5374bb4c-6655-4195-9424-49d0e2c879ff")
+			(uuid "5a503b1a-1d2c-4725-839e-1d1b81497ea6")
 		)
 		(pin "2"
-			(uuid "8b246c07-629b-40a4-aa4a-65d3c2385ee1")
+			(uuid "0741cb29-3afc-4b8a-9e3d-47ceb8966423")
 		)
 		(instances
-			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/dc3ab98d-8813-4545-9e4b-e0fd2f1fb432"
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+			(project "VehicleControlUnit"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/890fb496-5953-4e5b-b8ad-28917c0a3c13"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -9162,7 +9783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c670e479-9032-4930-8709-ad4a3c228811")
-		(property "Reference" "R6"
+		(property "Reference" "R12"
 			(at 227.33 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9217,7 +9838,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" ""
+		(property "LCSC P/N" "C844132"
 			(at 224.79 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -9228,7 +9849,7 @@
 				)
 			)
 		)
-		(property "P/N" "ERA-2ARB1912X"
+		(property "P/N" "CRCW060319K1FKEAHP"
 			(at 224.79 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -9240,15 +9861,148 @@
 			)
 		)
 		(pin "1"
-			(uuid "cac233dd-493f-4127-ac35-ccf3e41ec6f4")
+			(uuid "ed72adb1-52dd-41b9-b91d-1bcdb0eeb668")
 		)
 		(pin "2"
-			(uuid "21590c9a-f3b7-44d8-9609-3b30dba3d66b")
+			(uuid "a42b1cc6-2465-46c5-83e4-c28a3865990c")
 		)
 		(instances
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/331f457b-ed4e-4d4a-ad6d-c8acb2febfed/9243f342-8d42-4433-b049-031be1288812"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
+					(reference "R31")
+					(unit 1)
+				)
+			)
 			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/dc3ab98d-8813-4545-9e4b-e0fd2f1fb432"
-					(reference "R6")
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/890fb496-5953-4e5b-b8ad-28917c0a3c13"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 179.07 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cbf0021f-2456-410b-af7a-f5090fbf6009")
+		(property "Reference" "C12"
+			(at 173.482 94.234 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 173.482 96.774 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 180.0352 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 179.07 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "GMK325BJ226MM-P"
+			(at 179.07 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C778721"
+			(at 179.07 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f8d7f479-3e92-4128-8141-c6a4d4487cfc")
+		)
+		(pin "1"
+			(uuid "3374be08-ad4b-4056-b044-bcd494975333")
+		)
+		(instances
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+			(project "VehicleControlUnit"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/890fb496-5953-4e5b-b8ad-28917c0a3c13"
+					(reference "C12")
 					(unit 1)
 				)
 			)
