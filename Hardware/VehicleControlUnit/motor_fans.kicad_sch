@@ -5,6 +5,129 @@
 	(uuid "2b1a1d1e-9113-44e6-9b2e-2ec484edc1b9")
 	(paper "A5")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -912,8 +1035,8 @@
 		)
 	)
 	(rectangle
-		(start 46.99 69.85)
-		(end 80.01 93.472)
+		(start 44.45 69.85)
+		(end 77.47 93.472)
 		(stroke
 			(width 0)
 			(type dash)
@@ -959,7 +1082,7 @@
 	)
 	(text "Flyback Diodes"
 		(exclude_from_sim no)
-		(at 53.34 68.58 0)
+		(at 50.8 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1016,13 +1139,13 @@
 		(uuid "9fe320b1-1927-4e5e-85a4-0f5c8aa08acd")
 	)
 	(junction
-		(at 59.69 81.28)
+		(at 57.15 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a002b663-628f-42ed-8187-eb832712766d")
 	)
 	(junction
-		(at 72.39 81.28)
+		(at 69.85 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae1be2f7-d6ca-4d17-9a93-b54ac699dcff")
@@ -1081,7 +1204,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 86.36) (xy 59.69 85.09)
+			(xy 58.42 86.36) (xy 57.15 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1111,7 +1234,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 81.28) (xy 59.69 77.47)
+			(xy 57.15 81.28) (xy 57.15 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1131,7 +1254,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 86.36) (xy 60.96 86.36)
+			(xy 59.69 86.36) (xy 58.42 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1181,7 +1304,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 81.28) (xy 59.69 81.28)
+			(xy 55.88 81.28) (xy 57.15 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1211,7 +1334,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 76.2) (xy 60.96 76.2)
+			(xy 59.69 76.2) (xy 58.42 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1281,7 +1404,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 81.28) (xy 73.66 81.28)
+			(xy 69.85 81.28) (xy 71.12 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1321,7 +1444,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 85.09) (xy 59.69 81.28)
+			(xy 57.15 85.09) (xy 57.15 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1441,7 +1564,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 86.36) (xy 71.12 86.36)
+			(xy 67.31 86.36) (xy 68.58 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1451,7 +1574,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 76.2) (xy 71.12 76.2)
+			(xy 67.31 76.2) (xy 68.58 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1471,7 +1594,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 76.2) (xy 59.69 77.47)
+			(xy 58.42 76.2) (xy 57.15 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1501,7 +1624,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 86.36) (xy 72.39 85.09)
+			(xy 68.58 86.36) (xy 69.85 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1531,7 +1654,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 85.09) (xy 72.39 81.28)
+			(xy 69.85 85.09) (xy 69.85 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1541,7 +1664,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 81.28) (xy 72.39 77.47)
+			(xy 69.85 81.28) (xy 69.85 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1591,7 +1714,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 77.47) (xy 71.12 76.2)
+			(xy 69.85 77.47) (xy 68.58 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1660,8 +1783,8 @@
 		(uuid "fdeab84f-b3ec-4b8f-aec0-5558bd396b75")
 	)
 	(image
-		(at 149.86 67.056)
-		(scale 0.128285)
+		(at 157.3175 50.0959)
+		(scale 0.100319)
 		(uuid "59328c2c-de8f-4126-ab59-26de9d9ca74e")
 		(data "iVBORw0KGgoAAAANSUhEUgAABHQAAATkCAYAAAANalf1AAAMTmlDQ1BJQ0MgUHJvZmlsZQAASImV"
 			"VwdYU8kWnltSSQgQiICU0JsgIiWAlBBaAOlFEJWQBAglxoSgYkcXFVy7iGBFV0EU2wrIYkNddWVR"
@@ -6228,8 +6351,8 @@
 		)
 	)
 	(image
-		(at 149.5761 43.076)
-		(scale 0.139667)
+		(at 158.4661 32.916)
+		(scale 0.0903991)
 		(uuid "c2151aca-148d-41ec-a0d0-c77515166cdd")
 		(data "iVBORw0KGgoAAAANSUhEUgAABHoAAAKkCAYAAAB/K1gQAAAMTmlDQ1BJQ0MgUHJvZmlsZQAASImV"
 			"VwdYU8kWnltSSQgQiICU0JsgIiWAlBBaAOlFEJWQBAglxoSgYkcXFVy7iGBFV0EU2wrIYkNddWVR"
@@ -8853,6 +8976,17 @@
 		)
 		(uuid "0d2f718d-ced6-40a4-992f-0cd39c9c8b95")
 	)
+	(hierarchical_label "FAN_SDA"
+		(shape input)
+		(at 146.05 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "18b2f41f-3893-49d0-8262-e0aff3385992")
+	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 86.36 30.48 180)
@@ -8919,6 +9053,17 @@
 		)
 		(uuid "7680af85-d441-4188-8537-8c8fc2742fe9")
 	)
+	(hierarchical_label "FAN_SCL"
+		(shape input)
+		(at 146.05 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "83453092-ad41-4a33-8662-7b802a53d9d7")
+	)
 	(hierarchical_label "ALERT"
 		(shape input)
 		(at 118.11 49.53 0)
@@ -8930,9 +9075,20 @@
 		)
 		(uuid "86143f40-d7b6-4a2c-bac9-82d342b3dc4f")
 	)
+	(hierarchical_label "ALERT"
+		(shape input)
+		(at 146.05 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a56626ea-92cb-4662-a492-15acf8b4e38c")
+	)
 	(hierarchical_label "+12V_Fan"
 		(shape input)
-		(at 58.42 81.28 180)
+		(at 55.88 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8943,7 +9099,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 73.66 81.28 0)
+		(at 71.12 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8962,6 +9118,17 @@
 			(justify right)
 		)
 		(uuid "c3ae0e7b-df73-4909-a280-ae1246b82d28")
+	)
+	(hierarchical_label "FAN1_PWM"
+		(shape output)
+		(at 146.05 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c6c21a28-2a72-4250-a9e0-d000b316e407")
 	)
 	(hierarchical_label "+3.3V"
 		(shape input)
@@ -8984,6 +9151,17 @@
 			(justify right)
 		)
 		(uuid "e00f7c13-c7cc-44fc-adf0-98bed8f7ce0d")
+	)
+	(hierarchical_label "FAN1_TACH"
+		(shape input)
+		(at 146.05 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f02905f0-6492-49a3-a0de-95e73860daa2")
 	)
 	(hierarchical_label "FAN2_PWM"
 		(shape output)
@@ -9076,6 +9254,243 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 146.05 73.66 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "107f7f26-d6ce-4fae-979b-f029895fdb44")
+		(property "Reference" "TP6"
+			(at 151.13 72.3899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 151.13 74.9299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "diddle_shah:TestPoint_HEX_3mmID"
+			(at 146.05 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 146.05 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7ef5bb3-1fac-44d5-98ff-4677c3410575")
+		)
+		(instances
+			(project "VehicleControlUnit"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 146.05 68.58 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "166e1524-de18-4043-b7e6-944e524c90da")
+		(property "Reference" "TP5"
+			(at 151.13 67.3099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 151.13 69.8499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "diddle_shah:TestPoint_HEX_3mmID"
+			(at 146.05 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 146.05 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1ba87b34-951f-4756-8134-b49df3e73761")
+		)
+		(instances
+			(project "VehicleControlUnit"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 146.05 88.9 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ade2648-7f5b-4751-a1b3-f339d6a1c531")
+		(property "Reference" "TP9"
+			(at 151.13 87.6299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 151.13 90.1699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "diddle_shah:TestPoint_HEX_3mmID"
+			(at 146.05 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 146.05 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33d59f36-d693-4b87-b5ee-8a2fc8cbc15b")
+		)
+		(instances
+			(project "VehicleControlUnit"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 113.03 43.18 0)
 		(unit 1)
@@ -9156,7 +9571,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 66.04 86.36 0)
+		(at 63.5 86.36 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -9167,7 +9582,7 @@
 		(dnp no)
 		(uuid "274612e0-3eb4-4fe0-85a9-068462407217")
 		(property "Reference" "D16"
-			(at 65.024 83.312 0)
+			(at 62.484 83.312 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9178,7 +9593,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 60.96 89.408 0)
+			(at 58.42 89.408 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9189,7 +9604,7 @@
 			)
 		)
 		(property "Footprint" "VSSAF522-M3_H:SODFL5226X100N"
-			(at 66.04 86.36 0)
+			(at 63.5 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9200,7 +9615,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 86.36 0)
+			(at 63.5 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9211,7 +9626,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 66.04 86.36 0)
+			(at 63.5 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9662,6 +10077,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 146.05 78.74 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "855ef1a5-fc5b-4fe4-8986-c817946f9b68")
+		(property "Reference" "TP7"
+			(at 151.13 77.4699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 151.13 80.0099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "diddle_shah:TestPoint_HEX_3mmID"
+			(at 146.05 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 146.05 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa6d4a76-7fd3-4040-bfc8-e4a291ef44cc")
+		)
+		(instances
+			(project "VehicleControlUnit"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 71.12 43.18 0)
 		(unit 1)
@@ -9981,7 +10475,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 66.04 76.2 0)
+		(at 63.5 76.2 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -9992,7 +10486,7 @@
 		(dnp no)
 		(uuid "dc31a2f8-3160-4548-8039-259a69916061")
 		(property "Reference" "D15"
-			(at 65.024 73.152 0)
+			(at 62.484 73.152 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10003,7 +10497,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 60.96 79.248 0)
+			(at 58.42 79.248 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10014,7 +10508,7 @@
 			)
 		)
 		(property "Footprint" "VSSAF522-M3_H:SODFL5226X100N"
-			(at 66.04 76.2 0)
+			(at 63.5 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10025,7 +10519,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 76.2 0)
+			(at 63.5 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10036,7 +10530,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 66.04 76.2 0)
+			(at 63.5 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10056,6 +10550,85 @@
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
 					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 146.05 83.82 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec82ac7f-d6aa-4120-90db-6dba5695c319")
+		(property "Reference" "TP8"
+			(at 151.13 82.5499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 151.13 85.0899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "diddle_shah:TestPoint_HEX_3mmID"
+			(at 146.05 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 146.05 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aeca35e9-ece0-4eb9-addf-bfacd051657f")
+		)
+		(instances
+			(project "VehicleControlUnit"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
+					(reference "TP8")
 					(unit 1)
 				)
 			)

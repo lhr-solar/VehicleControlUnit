@@ -3076,7 +3076,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "RM-3.33.3S:RM-3.33.3S"
+		(symbol "ROE-3.305S:ROE-3.305S"
 			(pin_names
 				(offset 1.016)
 			)
@@ -3086,7 +3086,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "PS"
-				(at -10.16 8.636 0)
+				(at -10.1639 8.8979 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3096,8 +3096,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "RM-3.33.3S"
-				(at -10.16 -10.922 0)
+			(property "Value" "ROE-3.305S"
+				(at -10.1614 -10.1627 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3107,7 +3107,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "RM-3.33.3S:CONV_RM-3.33.3S"
+			(property "Footprint" "ROE-3.305S:CONV_ROE-3.305S"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3130,7 +3130,7 @@
 					)
 				)
 			)
-			(property "Description" "Recom Iso DC-DC Converter,Vin 2.97 to 3.63V dc,Vout 3.3V dc,I/O isolation 1000V | RECOM Power Inc. RM-3.33.3S"
+			(property "Description" "1W DC/DC-Converter 'ECONOLINE' SIP4 1kV unreg"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3154,7 +3154,7 @@
 					(justify bottom)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "10.0mm"
+			(property "MAXIMUM_PACKAGE_HEIGHT" "10.00mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3166,7 +3166,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Package" "SIP-4 Recom Power"
+			(property "Package" "None"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3190,7 +3190,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/RM-3.33.3S/Recom+Power/view-part/?ref=eda"
+			(property "Check_prices" "https://www.snapeda.com/parts/ROE-3.305S/Recom+Power/view-part/?ref=eda"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3214,7 +3214,7 @@
 					(justify bottom)
 				)
 			)
-			(property "PARTREV" "2"
+			(property "PARTREV" "5"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3226,7 +3226,7 @@
 					(justify bottom)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/RM-3.33.3S/Recom+Power/view-part/?ref=snap"
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/ROE-3.305S/Recom+Power/view-part/?ref=snap"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3238,7 +3238,7 @@
 					(justify bottom)
 				)
 			)
-			(property "MP" "RM-3.33.3S"
+			(property "MP" "ROE-3.305S"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3262,7 +3262,7 @@
 					(justify bottom)
 				)
 			)
-			(property "MANUFACTURER" "Recom"
+			(property "MANUFACTURER" "RECOM"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3274,7 +3274,7 @@
 					(justify bottom)
 				)
 			)
-			(symbol "RM-3.33.3S_0_0"
+			(symbol "ROE-3.305S_0_0"
 				(rectangle
 					(start -10.16 -7.62)
 					(end 10.16 7.62)
@@ -4068,12 +4068,6 @@
 		(uuid "19e29672-9a0c-4424-8b91-f92f0ac0f6c0")
 	)
 	(junction
-		(at 156.21 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c5c2f65-055e-43a7-bfe9-31c4d49ecc99")
-	)
-	(junction
 		(at 113.03 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4110,6 +4104,12 @@
 		(uuid "811f0c63-0004-4210-ba69-ca652d84e214")
 	)
 	(junction
+		(at 156.21 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a04da3a-5385-44dd-ba18-04a0b96e2361")
+	)
+	(junction
 		(at 151.13 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4122,6 +4122,12 @@
 		(uuid "a1f09c18-d914-4e36-9e4a-c0582b0847a7")
 	)
 	(junction
+		(at 156.21 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a659590b-b24c-45ac-b556-202996acc1aa")
+	)
+	(junction
 		(at 128.27 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4132,12 +4138,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6a43de2-fbac-4ae3-9bb3-591d523ef3a6")
-	)
-	(junction
-		(at 156.21 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d3bd1317-3abd-44a7-b6b3-59aaf7f9dfd3")
 	)
 	(junction
 		(at 140.97 82.55)
@@ -36370,6 +36370,16 @@
 		)
 		(uuid "2473c705-c356-4596-85e7-f70e982d17ad")
 	)
+	(label "+3.3V_ISO"
+		(at 139.7 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "297879f9-16ac-440d-a188-8f1f6e01e9ac")
+	)
 	(label "SPI_MOSI_ISO"
 		(at 81.28 99.06 0)
 		(effects
@@ -36698,17 +36708,6 @@
 		)
 		(uuid "3627ca5d-ec70-4da8-99ab-900ccbc521a7")
 	)
-	(hierarchical_label "+3.3V"
-		(shape input)
-		(at 139.7 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "38a5e907-2449-46d0-bff1-36f12c32cc62")
-	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
 		(at 104.14 100.33 180)
@@ -36821,17 +36820,6 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 152.4 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5d4856bc-6fb0-4593-90c4-0aefdc116341")
-	)
-	(hierarchical_label "GND"
-		(shape bidirectional)
 		(at 36.83 49.53 180)
 		(effects
 			(font
@@ -36851,6 +36839,17 @@
 			(justify right)
 		)
 		(uuid "677895b0-b12a-441c-9715-268661feadc3")
+	)
+	(hierarchical_label "GND_ISO"
+		(shape bidirectional)
+		(at 152.4 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6bbb6864-168e-4620-aefa-c21ccb060726")
 	)
 	(hierarchical_label "+3.3V"
 		(shape input)
@@ -37664,225 +37663,6 @@
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
 					(reference "C45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RM-3.33.3S:RM-3.33.3S")
-		(at 140.97 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "310ed432-9440-4a4b-837f-e503dc169961")
-		(property "Reference" "PS1"
-			(at 140.97 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RM-3.33.3S"
-			(at 140.97 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RM-3.33.3SHP:RM-3.33.3SHP"
-			(at 140.97 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/887/1/RM.pdf"
-			(at 140.97 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Recom Iso DC-DC Converter,Vin 2.97 to 3.63V dc,Vout 3.3V dc,I/O isolation 1000V | RECOM Power Inc. RM-3.33.3S"
-			(at 140.97 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Recom Power"
-			(at 140.97 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "10.0mm"
-			(at 140.97 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "SIP-4 Recom Power"
-			(at 140.97 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 140.97 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/RM-3.33.3S/Recom+Power/view-part/?ref=eda"
-			(at 140.97 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 140.97 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "2"
-			(at 140.97 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RM-3.33.3S/Recom+Power/view-part/?ref=snap"
-			(at 140.97 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "RM-3.33.3S"
-			(at 140.97 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 140.97 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Recom"
-			(at 140.97 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "2"
-			(uuid "b84f7c9e-54aa-4b49-b9b8-4ab93b3a05d6")
-		)
-		(pin "1"
-			(uuid "3fd9a9ba-2d9d-4597-8c7d-e3cc770e3d1a")
-		)
-		(pin "4"
-			(uuid "04f14725-a7ee-4251-bac4-86a8e199531e")
-		)
-		(pin "3"
-			(uuid "bc80802a-ea80-48ae-be14-05546cf45b2b")
-		)
-		(instances
-			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "PS1")
 					(unit 1)
 				)
 			)
@@ -38976,6 +38756,225 @@
 		)
 	)
 	(symbol
+		(lib_id "ROE-3.305S:ROE-3.305S")
+		(at 140.97 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b3e746bc-19c2-4347-a531-4df4ddc2cc83")
+		(property "Reference" "PS1"
+			(at 140.97 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ROE-3.305S"
+			(at 140.97 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ROE-3.305S:CONV_ROE-3.305S"
+			(at 140.97 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1W DC/DC-Converter 'ECONOLINE' SIP4 1kV unreg"
+			(at 140.97 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Recom Power"
+			(at 140.97 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "10.00mm"
+			(at 140.97 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 140.97 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 140.97 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ROE-3.305S/Recom+Power/view-part/?ref=eda"
+			(at 140.97 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 140.97 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "5"
+			(at 140.97 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ROE-3.305S/Recom+Power/view-part/?ref=snap"
+			(at 140.97 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "ROE-3.305S"
+			(at 140.97 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 140.97 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "RECOM"
+			(at 140.97 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "126a0a9c-7832-46b8-85ad-6db4c61afd1d")
+		)
+		(pin "2"
+			(uuid "d7cc2cc9-d638-417b-8279-eb16e0e62038")
+		)
+		(pin "3"
+			(uuid "b38869f8-3919-475d-a9d8-f81eefe6db7c")
+		)
+		(pin "4"
+			(uuid "659d3271-afa8-4d72-9b30-1ca710bbaf9c")
+		)
+		(instances
+			(project "VehicleControlUnit"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
+					(reference "PS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ISO7741DWR:ISO7741DWR")
 		(at 46.99 91.44 0)
 		(unit 1)
@@ -39349,7 +39348,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_2x11_P1.00mm_Vertical"
 			(at 201.676 124.46 0)
 			(hide yes)
 			(show_name no)
